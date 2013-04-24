@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://ternus.github.io/adversaries/sitemap.xml 
