@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Adversarial Thinking]]></title>
-  <link href="http://ternus.github.io/adversaries/atom.xml" rel="self"/>
-  <link href="http://ternus.github.io/adversaries/"/>
-  <updated>2013-04-24T15:31:02-04:00</updated>
-  <id>http://ternus.github.io/adversaries/</id>
+  <link href="http://adversari.es//atom.xml" rel="self"/>
+  <link href="http://adversari.es//"/>
+  <updated>2013-04-24T15:35:31-04:00</updated>
+  <id>http://adversari.es//</id>
   <author>
     <name><![CDATA[Christian Ternus]]></name>
     

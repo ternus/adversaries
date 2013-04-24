@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://ternus.github.io/adversaries/blog/archives/</loc>
+        <loc>http://adversari.es//blog/archives/</loc>
         <lastmod>2013-04-24T15:23:33-04:00</lastmod>
     </url>
     <url>
-        <loc>http://ternus.github.io/adversaries/</loc>
+        <loc>http://adversari.es//</loc>
         <lastmod>2013-04-24T15:23:33-04:00</lastmod>
     </url>
     <url>
-        <loc>http://ternus.github.io/adversaries/robots.txt</loc>
+        <loc>http://adversari.es//robots.txt</loc>
         <lastmod>2013-04-24T15:23:33-04:00</lastmod>
     </url>
 </urlset>
