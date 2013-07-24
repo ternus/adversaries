@@ -4,7 +4,7 @@
   <title><![CDATA[Adversarial Thinking]]></title>
   <link href="http://adversari.es//atom.xml" rel="self"/>
   <link href="http://adversari.es//"/>
-  <updated>2013-07-23T22:39:45-04:00</updated>
+  <updated>2013-07-23T22:43:02-04:00</updated>
   <id>http://adversari.es//</id>
   <author>
     <name><![CDATA[Christian Ternus]]></name>
@@ -115,6 +115,8 @@
 <p>There are a number of extensions and options not included here, largely because they have too significant of an impact on regular day-to-day browsing. <strong>Tor</strong> slows down browsing far too much. <strong>NoScript</strong> and <strong>RequestPolicy</strong> require user intervention on virtually every page in order to load properly.</p>
 
 <h1>Conclusion</h1>
+
+<p>You can see the impact of some of these techniques using <a href="https://panopticlick.eff.org">Panopticlick</a>. If your browser is unique, don&#8217;t worry &#8211; just check how it changes on each reload, which Secret Agent should help with.</p>
 
 <p>These techniques should allow you to browse the web with greater confidence that companies aren&#8217;t tracking you everywhere you go.</p>
 
