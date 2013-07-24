@@ -4,7 +4,7 @@
   <title><![CDATA[Adversarial Thinking]]></title>
   <link href="http://adversari.es//atom.xml" rel="self"/>
   <link href="http://adversari.es//"/>
-  <updated>2013-07-23T22:19:16-04:00</updated>
+  <updated>2013-07-23T22:39:45-04:00</updated>
   <id>http://adversari.es//</id>
   <author>
     <name><![CDATA[Christian Ternus]]></name>
@@ -36,7 +36,7 @@
 
 <p>I use <a href="https://www.privateinternetaccess.com/">Private Internet Access</a> which is $40/year, but there are a number of great options, including self-setup VPNs. All my web traffic flows through them, thus denying sites I visit the opportunity to discriminate based on my IP address &#8211; perhaps the easiest way for sites to track you.</p>
 
-<p>Your IP address can be used to geolocate you with an astonishing degree of precision. If you&#8217;re serious about privacy, be sure to use a VPN. You&#8217;ll also want to enable the option that disconnects your network when the VPN isn&#8217;t connected to prevent</p>
+<p>Your IP address can be used to geolocate you with an astonishing degree of precision. If you&#8217;re serious about privacy, be sure to use a VPN. You&#8217;ll also want to enable the option that disconnects your network when the VPN isn&#8217;t connected to prevent accidentally using an unencrypted connection.</p>
 
 <h2>Use Firefox</h2>
 
