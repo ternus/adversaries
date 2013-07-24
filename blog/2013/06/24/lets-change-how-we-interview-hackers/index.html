@@ -1,0 +1,245 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Let's Change How We Interview Hackers - Adversarial Thinking</title>
+  <meta name="author" content="Christian Ternus">
+
+  
+  <meta name="description" content="I&#8217;m convinced that the way most companies interview hackers can be significantly &#8211; and easily &#8211; improved. To do this, I&#8217;m &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://adversari.es//blog/2013/06/24/lets-change-how-we-interview-hackers">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="Adversarial Thinking" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/lib/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Adversarial Thinking</a></h1>
+  
+    <h2>The dark side of InfoSec research</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:adversari.es/" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Let's Change How We Interview Hackers</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-06-24T11:39:00-04:00" pubdate data-updated="true">Jun 24<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>I&#8217;m convinced that the way most companies interview hackers can be significantly &#8211; and easily &#8211; improved. To do this, I&#8217;m going to apply Akamai&#8217;s design principles to the idea of interviewing.</p>
+
+<h2>Problem statement and goals</h2>
+
+<p>Let&#8217;s think of it in terms of information theory. An interview is a temporary two-way information channel. Both of you want to maximize the <em>total throughput</em> of this channel. You, the interviewer, want to glean as much information as possible about the candidate, and he or she would like to learn as much as possible about you and the job.</p>
+
+<p>With this goal in mind, let&#8217;s try to design an interview.</p>
+
+<h3>Version 0</h3>
+
+<p>The candidate shows up with a prepared script, which they read out loud. At exactly the halfway point, they stop and you begin reading your prepared script, which consumes the other half of the time. You shake hands and part.</p>
+
+<p>As silly as this is, it fulfills the basic requirements of the interview: both of you have learned something about the other. A naive optimizer might even consider this a productive use of time &#8211; the channel between you and the candidate is constantly in use, and both of you are consistently transmitting information. Given more than a cursory glance, It&#8217;s obvious that this is a bad use of time.</p>
+
+<p>Our first optimization is pretty clear: it&#8217;s not an email exchange, it&#8217;s a face-to-face communication, so let&#8217;s treat it like one by making it an interactive process.</p>
+
+<h3>Version 1</h3>
+
+<p>You show up with a list of questions. The candidate answers the questions one by one. At the end, you ask the candidate if they have any questions, they ask you a few (or not) and leave.</p>
+
+<p>Many places don&#8217;t go further than this. Some interviewers believe this is what interviews <em>are</em>, and their companies don&#8217;t guide them towards anything better. This gets you the information you&#8217;re looking for: does the candidate know the answers? are their answers correct, reasonable, sane? You certainly get more impression of the candidate&#8217;s soft skills than Version 0.</p>
+
+<p>To describe what&#8217;s wrong with this, let&#8217;s introduce a few more goals you might not know you had. To first order, the company</p>
+
+<ol>
+<li>wants to hire good candidates and</li>
+<li>wants to avoid bad candidates.</li>
+</ol>
+
+
+<p>The second is more important than the first.</p>
+
+<p>You want to evaluate the <em>longitudinal</em> ability of the candidate &#8211; in other words, look at their abilities overall, not just within the artificial Q&amp;A environment of the interview. You may be familiar with the concept of &#8220;testing well&#8221; &#8211; people who have mastered the skill of <em>taking tests</em> regardless of the subject matter &#8211; as well as the opposite.</p>
+
+<p>http://courses.csail.mit.edu/iap/interview/Hacking_a_Google_Interview_Handout_1.pdf</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Christian Ternus</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-06-24T11:39:00-04:00" pubdate data-updated="true">Jun 24<span>th</span>, 2013</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/humans/'>humans</a>, <a class='category' href='/blog/categories/infosec/'>infosec</a>, <a class='category' href='/blog/categories/interview/'>interview</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://adversari.es//blog/2013/06/24/lets-change-how-we-interview-hackers/" data-via="ternus" data-counturl="http://adversari.es//blog/2013/06/24/lets-change-how-we-interview-hackers/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2013/06/19/cant-we-all-just-get-along/" title="Previous Post: Infosec's Jerk Problem">&laquo; Infosec's Jerk Problem</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2013/07/23/paranoid-browsing-for-fun-and-profit/" title="Next Post: Low-overhead paranoid browsing for fun and profit">Low-overhead paranoid browsing for fun and profit &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2013/07/23/paranoid-browsing-for-fun-and-profit/">Low-overhead paranoid browsing for fun and profit</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/06/24/lets-change-how-we-interview-hackers/">Let's Change How We Interview Hackers</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/06/19/cant-we-all-just-get-along/">Infosec's Jerk Problem</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2013 - Christian Ternus -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

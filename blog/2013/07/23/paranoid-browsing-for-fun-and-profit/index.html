@@ -1,0 +1,301 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Low-overhead paranoid browsing for fun and profit - Adversarial Thinking</title>
+  <meta name="author" content="Christian Ternus">
+
+  
+  <meta name="description" content="Companies are investing more effort than ever before in tracking you online, and not just on their sites. They use the data provided by your browser &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://adversari.es//blog/2013/07/23/paranoid-browsing-for-fun-and-profit">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="Adversarial Thinking" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/lib/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Adversarial Thinking</a></h1>
+  
+    <h2>The dark side of InfoSec research</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:adversari.es/" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Low-overhead Paranoid Browsing for Fun and Profit</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-07-23T18:09:00-04:00" pubdate data-updated="true">Jul 23<span>rd</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>Companies are investing more effort than ever before in tracking you online, and not just on their sites. They use the data provided by your browser to <a href="http://donttrack.us">build a profile of you</a> that can follow you across the web. In this post, I&#8217;ll describe a suite of defensive techniques to push back against this tracking while still able to enjoy the modern web experience.</p>
+
+<h1>Goals</h1>
+
+<p>We have two goals:</p>
+
+<ul>
+<li>Leak as little information as possible to the sites you visit, while</li>
+<li>Minimize impact to regular browsing behavior as much as possible.</li>
+</ul>
+
+
+<h1>Techniques</h1>
+
+<h2>Use an anonymizing VPN</h2>
+
+<p>I use <a href="https://www.privateinternetaccess.com/">Private Internet Access</a> which is $40/year, but there are a number of great options, including self-setup VPNs. All my web traffic flows through them, thus denying sites I visit the opportunity to discriminate based on my IP address &#8211; perhaps the easiest way for sites to track you.</p>
+
+<p>Your IP address can be used to geolocate you with an astonishing degree of precision. If you&#8217;re serious about privacy, be sure to use a VPN. You&#8217;ll also want to enable the option that disconnects your network when the VPN isn&#8217;t connected to prevent</p>
+
+<h2>Use Firefox</h2>
+
+<p>I love Google Chrome, and it&#8217;s been very difficult for me to switch &#8211; but using a browser provided by a company whose business model centers around compiling as precise a profile of you as possible is no longer compatible with the goals I outlined above. An excellent example of this is how the default configuration reports a heap of data to Google, while burying the &#8220;do not track&#8221; setting (which Chrome was the last browser to implement) in &#8220;advanced settings&#8221; and giving you a warning if you enable it.</p>
+
+<p>I hadn&#8217;t used Firefox in years before I switched, but it&#8217;s gotten a lot better. In particular, I&#8217;m using the <a href="https://people.mozilla.com/~jwein/ux-nightly/">UX build</a> (warning: <em>very</em> beta), which has a Chrome-like interface.</p>
+
+<h3>Firefox Settings</h3>
+
+<p>It&#8217;s easy to tune Firefox to maximize your privacy without diminishing your experience.</p>
+
+<h4>Privacy</h4>
+
+<p>Under the &#8220;Privacy&#8221; tab in the preferences page, select &#8220;Tell sites I do not want to be tracked.&#8221; Of course, sites are under no obligation to obey this flag, but it doesn&#8217;t hurt to make our preferences clear.</p>
+
+<p>Firefox will: &#8220;Use custom settings for history,&#8221; then &#8220;Accept third-party cookies: Never.&#8221; I&#8217;ll let CNET <a href="http://howto.cnet.com/8301-11310_39-20042703-285/disable-third-party-cookies-in-ie-firefox-and-google-chrome/">explain why</a>:</p>
+
+<blockquote><p> So if third-party cookies offer no direct benefit to users and can potentially be a threat, why do all the major browser makers default to allowing sites to leave all the cookies they want on your machine? Because the advertisers are their customers and are at least as important to them as users are.</p></blockquote>
+
+<p>Continue accepting cookies in general, though. We&#8217;ll get to why that&#8217;s OK later.</p>
+
+<h4>Security</h4>
+
+<p>Uncheck &#8220;Remember passwords for sites.&#8221; We have a better option.</p>
+
+<h4>Search Engine</h4>
+
+<p>I tried switching to <a href="https://duckduckgo.com">DuckDuckGo</a> but found that after nearly 1.5 decades of using Google the search quality was much poorer. (For example, when searching for the UX build link above, I searched for &#8220;firefox UX&#8221;, &#8220;firefox UX build&#8221;, &#8220;firefox UX nightly&#8221; etc. on DuckDuckGo, none of which produced the result I wanted. One search on Google and the first result was correct.)</p>
+
+<p>If you want a more privacy-respecting engine than Google but can&#8217;t give up (most of) Google&#8217;s search quality, use <a href="https://startpage.com">Startpage</a>. This site uses Google as a backend for search results.</p>
+
+<h4>Block Referer [sic] Header</h4>
+
+<p>Type &#8220;about:config&#8221; in the address bar, then type &#8220;referer&#8221; in the search bar. You want to set the <code>network.http.sendRefererHeader</code> value to 0, which will prevent the browser from sending <code>Referer:</code> headers. When clicking on a link from page A to B, this will prevent B from seeing the URL of A.</p>
+
+<h2>Firefox Addons</h2>
+
+<p>Here are some low-impact extensions that can drastically improve your privacy.</p>
+
+<h3><a href="https://lastpass.com">LastPass</a></h3>
+
+<p>Fun fact: I don&#8217;t actually know the vast majority of my passwords. LastPass is a cross-platform (Windows/Mac/Linux/Android/iOS) password manager that generates and securely stores passwords and form-fill info. It uses client-side encryption to protect your data and allows auto-login and auto-fill. Highly recommended.</p>
+
+<h3><a href="https://www.eff.org/https-everywhere">HTTPS Everywhere</a></h3>
+
+<p>Automatically and silently redirects you to HTTPS on many popular sites. Easy. This is how the web should work.</p>
+
+<h3><a href="https://addons.mozilla.org/en-US/firefox/addon/self-destructing-cookies/">Self-Destructing Cookies</a></h3>
+
+<p>Deletes cookies for a site as soon as you close the tab. You&#8217;ll want to whitelist sites you want to stay logged into, but this is a one-time operation per site. This can go a long, long way towards preventing sites from building a profile of you. This gets you most of the benefit of disabling cookies while still allowing you to log in.</p>
+
+<h3><a href="https://adblockplus.org/en/firefox">Adblock Plus</a></h3>
+
+<p>Blocks ads, and more importantly, the request to third-party sites those ads generate.</p>
+
+<h3><a href="https://addons.mozilla.org/en-US/firefox/addon/betterprivacy/">BetterPrivacy</a></h3>
+
+<p>Has just one purpose: to disable LSOs (locally stored objects), a type of &#8220;super-cookie&#8221; used by Flash.</p>
+
+<h3><a href="https://addons.mozilla.org/en-US/firefox/addon/ghostery/">Ghostery</a></h3>
+
+<p>Blocks a wide range of tracking methods 99% non-intrusively. The default configuration gives you a little popup at the upper right of your browser, which is occasionally interesting (&#8220;I had no idea this page felt the need to track me in 12 different ways&#8221;). Will occasionally break a page in a non-obvious way (&#8220;I feel like there should be comments here&#8230;&#8221;) but it&#8217;s easy to disable temporarily if reading internet comments is your thing. <em>cough</em></p>
+
+<h3><a href="https://www.dephormation.org.uk/index.php?page=81">Secret Agent</a></h3>
+
+<p>Cookies aren&#8217;t the only way sites fingerprint your browser &#8211; one of the most common methods is the user-agent string. This extension randomizes the user-agent string sent along with your browser on every request, thus spreading your information among a number of different profiles and making you harder to track. It&#8217;ll also randomize the HTTP Accept headers.</p>
+
+<p>Unfortunately, the default user-agent list Secret Agent ships with causes problems with sites as their capability-detection mechanisms go haywire (Lynx?!). I&#8217;ve created my own <a href="http://adversari.es/assets/useragentlist.txt">list of modern user agents</a> consisting of the most popular browser strings from Firefox, Chrome, and Safari.</p>
+
+<h3><a href="https://addons.mozilla.org/en-US/firefox/addon/flashblock/">Flashblock</a></h3>
+
+<p>Disallows Flash from running by default, replacing Flash applets with a placeholder that runs the applet when clicked. Not only does this protect against malicious (or annoying!) Flash apps, it&#8217;ll prevent browsers from using Flash-based fingerprinting methods (such as loading the list of installed fonts). I&#8217;ve used click-to-run on Google Chrome for ages and it&#8217;s been great.</p>
+
+<h1>Out of Scope</h1>
+
+<p>There are a number of extensions and options not included here, largely because they have too significant of an impact on regular day-to-day browsing. <strong>Tor</strong> slows down browsing far too much. <strong>NoScript</strong> and <strong>RequestPolicy</strong> require user intervention on virtually every page in order to load properly.</p>
+
+<h1>Conclusion</h1>
+
+<p>Got any other suggestions for low-impact privacy improvements? Tweet me at <a href="https://twitter.com/ternus">@ternus</a>.</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Christian Ternus</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-07-23T18:09:00-04:00" pubdate data-updated="true">Jul 23<span>rd</span>, 2013</time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://adversari.es//blog/2013/07/23/paranoid-browsing-for-fun-and-profit/" data-via="ternus" data-counturl="http://adversari.es//blog/2013/07/23/paranoid-browsing-for-fun-and-profit/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2013/06/24/lets-change-how-we-interview-hackers/" title="Previous Post: Let's Change How We Interview Hackers">&laquo; Let's Change How We Interview Hackers</a>
+      
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2013/07/23/paranoid-browsing-for-fun-and-profit/">Low-overhead paranoid browsing for fun and profit</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/06/24/lets-change-how-we-interview-hackers/">Let's Change How We Interview Hackers</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/06/19/cant-we-all-just-get-along/">Infosec's Jerk Problem</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2013 - Christian Ternus -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

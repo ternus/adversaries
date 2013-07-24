@@ -4,7 +4,7 @@
   <title><![CDATA[Category: humans | Adversarial Thinking]]></title>
   <link href="http://adversari.es//blog/categories/humans/atom.xml" rel="self"/>
   <link href="http://adversari.es//"/>
-  <updated>2013-06-20T17:50:18-04:00</updated>
+  <updated>2013-07-23T22:16:04-04:00</updated>
   <id>http://adversari.es//</id>
   <author>
     <name><![CDATA[Christian Ternus]]></name>
@@ -12,6 +12,49 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Let's Change How We Interview Hackers]]></title>
+    <link href="http://adversari.es//blog/2013/06/24/lets-change-how-we-interview-hackers/"/>
+    <updated>2013-06-24T11:39:00-04:00</updated>
+    <id>http://adversari.es//blog/2013/06/24/lets-change-how-we-interview-hackers</id>
+    <content type="html"><![CDATA[<p>I'm convinced that the way most companies interview hackers can be significantly -- and easily -- improved. To do this, I'm going to apply Akamai's design principles to the idea of interviewing.</p>
+
+<h2>Problem statement and goals</h2>
+
+<p>Let's think of it in terms of information theory. An interview is a temporary two-way information channel. Both of you want to maximize the <em>total throughput</em> of this channel. You, the interviewer, want to glean as much information as possible about the candidate, and he or she would like to learn as much as possible about you and the job.</p>
+
+<p>With this goal in mind, let's try to design an interview.</p>
+
+<h3>Version 0</h3>
+
+<p>The candidate shows up with a prepared script, which they read out loud. At exactly the halfway point, they stop and you begin reading your prepared script, which consumes the other half of the time. You shake hands and part.</p>
+
+<p>As silly as this is, it fulfills the basic requirements of the interview: both of you have learned something about the other. A naive optimizer might even consider this a productive use of time -- the channel between you and the candidate is constantly in use, and both of you are consistently transmitting information. Given more than a cursory glance, It's obvious that this is a bad use of time.</p>
+
+<p>Our first optimization is pretty clear: it's not an email exchange, it's a face-to-face communication, so let's treat it like one by making it an interactive process.</p>
+
+<h3>Version 1</h3>
+
+<p>You show up with a list of questions. The candidate answers the questions one by one. At the end, you ask the candidate if they have any questions, they ask you a few (or not) and leave.</p>
+
+<p>Many places don't go further than this. Some interviewers believe this is what interviews <em>are</em>, and their companies don't guide them towards anything better. This gets you the information you're looking for: does the candidate know the answers? are their answers correct, reasonable, sane? You certainly get more impression of the candidate's soft skills than Version 0.</p>
+
+<p>To describe what's wrong with this, let's introduce a few more goals you might not know you had. To first order, the company</p>
+
+<ol>
+<li>wants to hire good candidates and</li>
+<li>wants to avoid bad candidates.</li>
+</ol>
+
+
+<p>The second is more important than the first.</p>
+
+<p>You want to evaluate the <em>longitudinal</em> ability of the candidate -- in other words, look at their abilities overall, not just within the artificial Q&amp;A environment of the interview. You may be familiar with the concept of "testing well" -- people who have mastered the skill of <em>taking tests</em> regardless of the subject matter -- as well as the opposite.</p>
+
+<p>http://courses.csail.mit.edu/iap/interview/Hacking_a_Google_Interview_Handout_1.pdf</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Infosec's Jerk Problem]]></title>
@@ -68,7 +111,7 @@ lest (hopefully metaphorical) frozen undead kill us all.</p>
 we're Chicken Little crossed with the IRS crossed with their least favorite
 elementary-school teacher</strong>: always yelling about the sky falling, demanding
 unquestioning obedience to a laundry list of arcane, seemingly arbitrary rules
-(<a href="http://www.csoandy.com/files/password_weakness.html">password complexity requirements</a>, anyone?) that seem of little conesequence,
+(<a href="http://www.csoandy.com/files/password_weakness.html">password complexity requirements</a>, anyone?) that seem of little consequence,
 and condescendingly remonstrating anyone who steps out of line. Once in a
 while a visionary (often an Infosec expat) who truly understands the threat
 tries to help others see the value, but most of "them" don't get it. <em>Users are
