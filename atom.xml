@@ -4,7 +4,7 @@
   <title><![CDATA[Adversarial Thinking]]></title>
   <link href="http://adversari.es//atom.xml" rel="self"/>
   <link href="http://adversari.es//"/>
-  <updated>2013-07-23T22:43:02-04:00</updated>
+  <updated>2013-08-02T14:35:13-04:00</updated>
   <id>http://adversari.es//</id>
   <author>
     <name><![CDATA[Christian Ternus]]></name>
@@ -14,10 +14,13 @@
 
   
   <entry>
+    
     <title type="html"><![CDATA[Low-overhead paranoid browsing for fun and profit]]></title>
     <link href="http://adversari.es//blog/2013/07/23/paranoid-browsing-for-fun-and-profit/"/>
+    
     <updated>2013-07-23T18:09:00-04:00</updated>
     <id>http://adversari.es//blog/2013/07/23/paranoid-browsing-for-fun-and-profit</id>
+    
     <content type="html"><![CDATA[<p>Companies are investing more effort than ever before in tracking you online, and not just on their sites. They use the data provided by your browser to <a href="http://donttrack.us">build a profile of you</a> that can follow you across the web. In this post, I&#8217;ll describe a suite of defensive techniques to push back against this tracking while still able to enjoy the modern web experience.</p>
 
 <h1>Goals</h1>
@@ -122,13 +125,17 @@
 
 <p><em>Got any other suggestions for low-impact privacy improvements? Tweet me at <a href="https://twitter.com/ternus">@ternus</a>.</em></p>
 ]]></content>
+    
   </entry>
   
   <entry>
+    
     <title type="html"><![CDATA[Infosec's Jerk Problem]]></title>
     <link href="http://adversari.es//blog/2013/06/19/cant-we-all-just-get-along/"/>
+    
     <updated>2013-06-19T14:59:00-04:00</updated>
     <id>http://adversari.es//blog/2013/06/19/cant-we-all-just-get-along</id>
+    
     <content type="html"><![CDATA[<p>Put bluntly: to others, we&#8217;re jerks.</p>
 
 <p>If you don&#8217;t think this is a problem, you can stop reading here.</p>
@@ -342,6 +349,7 @@ follow.</strong></p>
 
 <p><em>What do you think? Let me know on Twitter; I&#8217;m <a href="https://twitter.com/ternus">@ternus</a>.</em></p>
 ]]></content>
+    
   </entry>
   
 </feed>
