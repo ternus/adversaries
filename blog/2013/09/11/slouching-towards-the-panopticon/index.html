@@ -1,0 +1,518 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Slouching towards the Panopticon - Adversarial Thinking</title>
+  <meta name="author" content="Christian Ternus">
+
+  
+  <meta name="description" content="Abstract Cryptanalysis always gets better. It never gets worse.NSA saying, Wired Many in the public policy, defense, technology, and security &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://adversari.es//blog/2013/09/11/slouching-towards-the-panopticon">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="Adversarial Thinking" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/lib/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+  
+
+</head>
+
+<body   class="collapse-sidebar sidebar-footer" >
+  <header role="banner"><h1>Adversarial Thinking</h1>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:adversari.es/" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="/about">About</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+  
+    
+      <h1 class="entry-title">Slouching Towards the Panopticon</h1>
+    
+  
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-09-11T21:19:00-04:00" pubdate data-updated="true">Sep 11<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><h1>Abstract</h1>
+
+<blockquote><p>Cryptanalysis always gets better. It never gets worse.</p><footer><strong>NSA saying,</strong> <cite><a href='http://www.wired.com/opinion/2013/09/black-budget-what-exactly-are-the-nsas-cryptanalytic-capabilities/'>Wired</a></cite></footer></blockquote>
+
+
+<p><em>Many in the public policy, defense, technology, and security
+communities have long known, and Edward Snowden gave his freedom to
+remind us, that the United States government is progressively
+expanding a comprehensive, intrusive intelligence-gathering system &#8211;
+a Panopticon with capabilities the average citizen can neither
+comprehend nor resist &#8211; a system with unprecedented power for tyranny
+and repression &#8211; and it will be far harder to dismantle than it was
+to build. There are ways legislators, technologists, and the public
+can push back, and we must do so as soon as possible to avert a terrible
+future.</em></p>
+
+<h1>Preface</h1>
+
+<p>A few key facts to set the scene:</p>
+
+<ul>
+<li>9/11 was
+<a href="http://www.pbs.org/wgbh/pages/frontline/shows/terrorism/fail/">publicly</a>
+<a href="http://www.freerepublic.com/focus/news/686043/posts">labeled</a> a
+<a href="http://www.realclearpolitics.com/articles/2013/09/01/our_infected_intelligence_system_119794.html">failure of intelligence</a>
+by a wide cross-section of the American media and political
+establishment.</li>
+<li>We have a cultural need to place blame on individuals or groups for
+bad events, even those that result from systemic failure.</li>
+<li>The United States &#8211; hereafter &#8220;we&#8221;, though much of this applies to
+the &#8220;five eyes&#8221; (viz. Australia, Canada, New Zealand, the UK, and
+the US) as well &#8211; has made massive investments in &#8220;homeland
+security&#8221; signals intelligence for a variety of purposes, including but not
+limited to counter-terrorism.</li>
+<li>The United States National Security Agency (NSA)
+<a href="http://www.wired.com/opinion/2013/09/black-budget-what-exactly-are-the-nsas-cryptanalytic-capabilities/">probably spends more on cryptography research than everyone else put together</a>. They
+publish very little research. Thus, the cutting edge
+of public research is likely an inaccurate predictor of the NSA&#8217;s
+cryptologic capabilities.</li>
+<li>The prospect of collateral damage does not, in practice, deter the
+American intelligence apparatus from using its capabilities to
+identify, capture, and kill terrorists.</li>
+<li>Through Edward Snowden and others, we have significant evidence
+that the NSA has spent significant effort building a comprehensive
+apparatus for surveilling both Americans and foreigners. Through
+the PRISM program and other systems, they have acquired
+unprecedented access to the private information of citizens
+worldwide. They have made significant investment in systems to
+automatically analyze this data. The public does not know the full
+extent of their capability in this regard.</li>
+<li>The head of the NSA, Gen. Keith Alexander,
+<a href="http://www.washingtonpost.com/world/national-security/for-nsa-chief-terrorist-threat-drives-passion-to-collect-it-all/2013/07/14/3d26ef80-ea49-11e2-a301-ea5a8116d211_story.html">believes</a>
+that only by collecting all available data can the NSA effectively
+thwart terrorism.</li>
+<li>The public state of the art in data storage and analysis &#8211; storage
+capacity, processing speed, statistical techniques, available
+software, automation capability &#8211; is several orders of magnitude better
+than it was 20 years ago. We have no reason to expect this trend
+will not continue.</li>
+</ul>
+
+
+<h1>Where we could go</h1>
+
+<p>Imagine you&#8217;re the director of US
+national intelligence. It&#8217;s a few years from now, and you&#8217;ve been given
+an enormous budget and an effectively unlimited supply of smart people
+to end the terrorism problem. With these resources you build <em>Deep
+Thought</em> &#8211; a machine with access to an unfathomably deep database,
+capable of answering arbitrarily-formed questions about the population
+of the US.</p>
+
+<p>Billions of dollars and thousands of man-years later, with the
+President and the Joint Chiefs watching, you stand in front of this
+machine and say,</p>
+
+<blockquote><p>Show me the terrorists.</p></blockquote>
+
+<p>Obligingly, Deep Thought displays a list of Islamist radicals,
+anarchist cranks, would-be Unabombers, and so on. The dedicated men
+and women of our national security agencies round up these dangerous
+criminals and lock them away. The nation rejoices. The TSA lets you
+fly with shampoo again. Everyone&#8217;s happy.</p>
+
+<p>There is just one catch: Deep Thought is <em>still sitting there</em>, waiting
+to accept input. The nation has already sunk the cost of building it,
+and it&#8217;s not about to shut it off any more than, say, unilaterally
+destroy the entire strategic nuclear arsenal. But since we <em>have it</em>:</p>
+
+<blockquote><p>Show me the murderers.</p>
+
+<p>Show me the child molestors.</p>
+
+<p>Show me the kidnappers.</p></blockquote>
+
+<p>The New York Times has a field day. Fox News runs a slide show of
+missing little girls and their rabid killers, finally brought to
+justice. Government approval soars.</p>
+
+<p>And Deep Thought is still sitting there, waiting for the next question.</p>
+
+<blockquote><p>Show me the drug dealers.</p></blockquote>
+
+<p>Hundreds of thousands, ranging from die-hard methheads to small-time
+marijuana dealers to club kids to ancient hippies passing out LSD. In
+one swift stroke, the drug problem in the United States is
+over. Despite the collateral damage (a few politicians&#8217; sons, how
+embarrassing) support is broad.</p>
+
+<blockquote><p>Show me anyone with the capability and intent to bring down the
+United States government.</p>
+
+<p>Show me the leakers.</p>
+
+<p>Show me the hackers.</p></blockquote>
+
+<p>It is still pretty easy to justify. These are dangerous people &#8211;
+traitors, even. &#8220;Crazies.&#8221; Nobody really complains.</p>
+
+<p>Who is left? <em>Anyone you want</em>.</p>
+
+<blockquote><p>Show me the dissidents.</p>
+
+<p>Show me the activists.</p>
+
+<p>Show me&#8230;</p></blockquote>
+
+<h2>Frequently exclaimed &#8220;but!&#8221;s</h2>
+
+<h3>That system you described is impossible.</h3>
+
+<p>I agree &#8211; there&#8217;s no way we could ever build a system with <em>zero
+error rate</em>. Either we would miss some terrorists by ensuring
+P(terrorist)=1 (and if you think we would take this road, I have a
+<a href="https://en.wikipedia.org/wiki/Dual_EC_DRBG">deterministic random bit generator</a>
+to sell you) or we would end up including innocents in the results, like
+dolphins in a net of
+tuna. <a href="https://en.wikipedia.org/wiki/Khalid_El-Masri">See: this guy</a>.</p>
+
+<p>A 100%-accurate system like this is impossible with the tech we have
+today. Much more likely is a system &#8211; much like ones we have today &#8211;
+that gives a <em>probability</em> of being a terrorist. Unfortunately,
+decision-makers aren&#8217;t often big on fuzzy probabilities:</p>
+
+<blockquote><p>&#8220;I don&#8217;t need this,&#8221; Harris reports that a senior CIA officer working<br/>on the agency&#8217;s drone program once told an NSA analyst who showed up<br/>with a big, nebulous graph. &#8220;I just need you to tell me whose ass to<br/>put a Hellfire missile on.&#8221;</p><footer><strong>Business Insider,</strong> <cite><a href='http://www.businessinsider.com/the-nsas-strength-may-be-biggest-weakness-2013-9'>The NSA&#8217;s Strength May Be Its Biggest Weakness</a></cite></footer></blockquote>
+
+
+<h3>They might be able to do this in the future, but not now.</h3>
+
+<p>Public companies, especially marketers and advertisers, are experts at
+this sort of behavior. Web advertising companies jumping on the
+big-data bandwagon have discovered Target et
+al. <a href="http://www.nytimes.com/2012/02/19/magazine/shopping-habits.html?pagewanted=all&amp;_r=0">already there</a>. What
+can the NSA accomplish with Google/Facebook/Comcast/Verizon/AT&amp;T&#8217;s
+knowledge of your online habits, plus their own sources? What profile
+could they build of you? In theory, they can suborn your laptop, your
+smartphone (a remotely-operable listening device with a location
+tracker built in, great!), your landline, every Internet connection in
+your house and business, your physical mail, your email, your
+OnStar-enabled car, every online profile you have unless you adopt the
+life of a complete paranoiac &#8211; and even then it only takes one
+misstep for them to get
+you. <a href="http://nakedsecurity.sophos.com/2012/12/03/john-mcafee-location-exif/">Ask John McAfee.</a></p>
+
+<p>Certainly there are technical capabilities that are out of their reach
+at this moment; that&#8217;s why they&#8217;re storing all the data for future
+analysis. Data that currently seems inconsequential might be far less
+so later. Currently-unbreakable crypto protocols (and remember, they
+spend more on crypto research than the <em>entire rest of the world put
+together</em>) may not be so unbreakable later. Good thing for them it&#8217;s
+all on disk.</p>
+
+<h3>This is unconstitutional.</h3>
+
+<p>Probably, but that hasn&#8217;t stopped them. Their interpretation of the
+law and the Constitution most likely doesn&#8217;t match yours.</p>
+
+<p><a href="http://cryptome.org/nsa-ussid18-80.htm#SECTION%203">The NSA doesn&#8217;t consider automated interception and bulk analysis a &#8220;collection&#8221;</a>,
+meaning it can build as large of a profile of you as it wants, no
+approval required, as long as no human intentionally instructs it to
+do so. Should it ever decide it needs approval, the Foreign
+Intelligence Surveillance Court&#8217;s
+<a href="https://en.wikipedia.org/wiki/United_States_Foreign_Intelligence_Surveillance_Court#Criticism">approval rate is 99.97%</a>.</p>
+
+<h3>We would know if this were happening.</h3>
+
+<p>The NSA, DEA, and FBI have demonstrated willingness to lie to the
+courts (through the method of
+<a href="https://www.eff.org/deeplinks/2013/08/dea-and-nsa-team-intelligence-laundering">&#8220;parallel construction&#8221;</a>,
+also known as intelligence laundering) about the source of their
+information. They have repeatedly misled Congress about their
+activities. They have <a href="http://www.slate.com/articles/news_and_politics/politics/2013/07/nsa_lexicon_how_james_clapper_and_other_u_s_officials_mislead_the_american.html">redefined</a> words like &#8220;incidental,&#8221; &#8220;relevant,&#8221;
+and &#8220;targeted&#8221; in positively Clintonian fashion. They believe that the
+disclosure of the existence and operation of this technical apparatus
+is tantamount to treason against the United States.</p>
+
+<p>You are free to believe, as President Obama
+<a href="https://www.nytimes.com/2013/08/10/us/politics/obamas-remarks-at-a-news-conference.html?pagewanted=all">claims</a>,
+that we would be having this debate even if Snowden hadn&#8217;t done what he
+did. I do not believe this.</p>
+
+<h3>My life is not interesting enough to be surveilled (often rendered as &#8220;I&#8217;m too boring.&#8221;)</h3>
+
+<p>The background assumptions there:</p>
+
+<ul>
+<li>it costs the government some nontrivial amount to watch me, and</li>
+<li>they don&#8217;t gain anything of worth by doing so (after all, I am not a
+terrorist!), so</li>
+<li>it&#8217;s not worth it to them to do so.</li>
+</ul>
+
+
+<p>The first assumption no longer holds.</p>
+
+<p>Before the age of fast automated analysis, surveillance agencies were
+limited by money and very expensive human time in the scope of their
+surveillance. If they wanted to watch you, an actual human had to
+spend time listening to you, following you, reading your physical
+mail, and so on &#8211; with the associated Fourth Amendment implications,
+to the degree the government followed them.</p>
+
+<p>This is dramatically less true in an era of supercomputers and data
+centers, where the entire metadata output of, say, Verizon can be
+recorded by a few racks of servers. In other words, once the
+infrastructure is in place, the marginal cost to the government to
+surveil <em>you</em> is effectively zero, and the downside risk for failing to
+surveil the right people is high. They may have more to lose by <em>not</em>
+watching you than the other way around.</p>
+
+<h3>What harm does it do? If you&#8217;re doing nothing wrong, you have nothing to hide.</h3>
+
+<p>No. If I have done nothing wrong, you have no reason to watch me.</p>
+
+<blockquote><p>Just because Google, Facebook, Skype, Verizon and other companies are<br/>routinely monitored by the CIA doesn’t mean that somebody is watching<br/>you every time you order groceries online or voice-chat your sister in<br/>Seoul. It just means that they could if you gave them a reason to do<br/>so. That means you can relax – right up until the time when you want<br/>to go to a protest, or your sister does, or you support the fact that<br/>several thousand complete strangers did.</p><footer><strong>Laurie Penny,</strong> <cite><a href='http://www.newstatesman.com/politics/2013/06/if-you-live-surveillance-state-long-enough-you-create-censor-your-head'>If You Live in a Surveillance State for Long Enough, You Create a Censor in Your Head</a></cite></footer></blockquote>
+
+
+<p><a href="http://www.newstatesman.com/politics/2013/06/if-you-live-surveillance-state-long-enough-you-create-censor-your-head">If you believe you are being watched (or are uncertain but think you may be), you change your behavior.</a>
+You take fewer risks: the fear of <em>appearing</em> guilty, even with the
+most innocent of motives, is enough to deter you from taking actions
+that might appear such to a hostile audience. You watch what you
+Google, you watch what you say on the phone. In small ways, your life
+begins to resemble an airport security line (&#8220;don&#8217;t joke about bombs
+&#8211; they might be listening!&#8221;). In order to thrive, our democracy
+requires that discourse. We need the ability to hold discussions
+current (or future!) administrations might not like. We need to be
+able to hold opinions others might detest. We need privacy to
+flourish, and I do not believe we can be fully human, fully free,
+without it.</p>
+
+<h3>I don&#8217;t care. If the government says they need it to catch terrorists, I trust them.</h3>
+
+<p>Even with several <em>very</em> generous assumptions about the honesty,
+integrity, and competence of the current administration (for whom I
+voted twice, and about which enough has been said) &#8211; governments
+change. We should be deeply cautious of such a powerful tool,
+potentially the most powerful instrument of tyranny and oppression a
+government has ever possessed, in the hands of any administration, no
+matter how benign.  All it takes is one election. If the transition
+from the Bush to Obama administrations has taught us anything, it&#8217;s
+that a change in party in no way necessitates a lessening of executive
+power.</p>
+
+<h1>What we can do</h1>
+
+<p>In a very real way, we, the American people, did this to
+ourselves. We built this machine out of fear and now, at least in the
+short term, we are stuck with it. By demanding that <em>no</em> terrorist
+attacks <em>ever</em> happen, and placing the blame on our intelligence
+apparatus when they do, we have strongly incentivized the creation of a
+system exactly like this.</p>
+
+<p>In the short term, we can demand radical transparency and oversight
+for our clandestine security agencies, starting with a top-to-bottom
+audit from Congress&#8217; loudest complainers
+(<a href="http://www.theguardian.com/world/2013/aug/16/nsa-revelations-privacy-breaches-udall-wyden">Senators Ron Wyden and Mark Udall come to mind</a>). We
+can make this a campaign issue: as a society, we must accept this may
+make them less effective (though who wholeheartedly accepts the
+doomsaying coming from the NSA in response to the Snowden leaks?) and
+that we are willing to make that tradeoff. Remember, as easy as it may
+be for them to forget, our government works for us.</p>
+
+<p>In the medium term, engineers and technologists must refuse to build
+or support systems that engage in privacy- and liberty-destroying mass
+surveillance. Transparency reports are a good start, but those with
+the clout and resources to fight these orders must stand up and do so
+&#8211; large companies, mostly, but individuals can as well. We must
+establish a strong ethical basis to guide those in my profession as
+we develop the technology of the future.</p>
+
+<p>In the long term, we must dismantle the current architecture of
+<a href="https://en.wikipedia.org/wiki/United_States_Foreign_Intelligence_Surveillance_Court">secret courts</a>,
+<a href="https://en.wikipedia.org/wiki/National_security_letter">secret orders</a>,
+and
+<a href="https://en.wikipedia.org/wiki/Extraordinary_rendition">secret law enforcement</a>. As
+a society we must stand up and say: <em>this is not who we are</em>. Though
+it may come at a price, we demand freedom of thought and conscience
+and association. We demand that our messages to our loved ones, our
+health, our finances, our lives, retain the privacy the Constitution
+specifically affords them. We demand what Voltaire called &#8220;the right
+most valued by all civilized men&#8221;: to be left alone.</p>
+
+<p><em>I would love to know what you think; I am <a href="https://twitter.com/ternus">@ternus</a> on Twitter.</em></p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Christian Ternus</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-09-11T21:19:00-04:00" pubdate data-updated="true">Sep 11<span>th</span>, 2013</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/politics/'>politics</a>, <a class='category' href='/blog/categories/security/'>security</a>, <a class='category' href='/blog/categories/society/'>society</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://adversari.es//blog/2013/09/11/slouching-towards-the-panopticon/" data-via="ternus" data-counturl="http://adversari.es//blog/2013/09/11/slouching-towards-the-panopticon/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2013/07/23/paranoid-browsing-for-fun-and-profit/" title="Previous Post: Low-overhead paranoid browsing for fun and profit">&laquo; Low-overhead paranoid browsing for fun and profit</a>
+      
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2013/09/11/slouching-towards-the-panopticon/">Slouching towards the Panopticon</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/07/23/paranoid-browsing-for-fun-and-profit/">Low-overhead paranoid browsing for fun and profit</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/06/24/lets-change-how-we-interview-hackers/">Let's Change How We Interview Hackers</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/06/19/cant-we-all-just-get-along/">Infosec's Jerk Problem</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/04/25/on-mobile-devices-and-two-factor-auth/">A note on the security of mobile banking apps</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2013 - Christian Ternus <br/>
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a>, customized with <a href="https://github.com/mjhea0/whiterspace">whiterspace</a>.</span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

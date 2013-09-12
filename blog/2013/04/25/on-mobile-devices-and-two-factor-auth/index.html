@@ -5,11 +5,13 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Category: infosec - Adversarial Thinking</title>
+  <title>A note on the security of mobile banking apps - Adversarial Thinking</title>
   <meta name="author" content="Christian Ternus">
 
   
-  <meta name="description" content="Category: infosec">
+  <meta name="description" content="My bank, MITFCU, just came out with a mobile banking app.
+Like similar apps from other financial institutions, the app allows you to
+view your &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +20,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://adversari.es/blog/categories/infosec">
+  <link rel="canonical" href="http://adversari.es//blog/2013/04/25/on-mobile-devices-and-two-factor-auth">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Adversarial Thinking" type="application/atom+xml">
@@ -61,39 +63,116 @@
   <div id="main">
     <div id="content">
       <div>
-<article role="article">
+<article class="hentry" role="article">
   
   <header>
-    <h1 class="entry-title">Category: Infosec</h1>
+  
+    
+      <h1 class="entry-title">A Note on the Security of Mobile Banking Apps</h1>
+    
+  
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-04-25T19:59:00-04:00" pubdate data-updated="true">Apr 25<span>th</span>, 2013</time>
+        
+      </p>
     
   </header>
-  
-  <div id="blog-archives" class="category">
 
 
+<div class="entry-content"><p>My bank, <a href="http://mitfcu.org">MITFCU</a>, just came out with a mobile banking app.
+Like similar apps from other financial institutions, the app allows you to
+view your accounts, deposit checks, transfer money, and so on.  It&#8217;s both
+useful and convenient, but it has a couple of potentially serious security
+issues.</p>
 
-  
-  <h2>2013</h2>
+<h2>Insecure two-factor authentication</h2>
 
-<article>
-  
-<h1><a href="/blog/2013/06/24/lets-change-how-we-interview-hackers/">Let's Change How We Interview Hackers</a></h1>
-<time datetime="2013-06-24T11:39:00-04:00" pubdate><span class='month'>Jun</span> <span class='day'>24</span> <span class='year'>2013</span></time>
+<p>Like any security-conscious person, I had two-factor auth turned on for my
+bank account.  Two-factor authentication in its basic form relies on the
+combination of &#8220;something you know&#8221; (generally a password) with &#8220;something you
+have&#8221; (a phone number for SMS, email address, RSA fob, smart card, etc.)</p>
 
-</article>
+<p>Whenever I log in to MITFCU&#8217;s desktop site, I receive a text message with a
+six-digit code, which I must provide in order to continue logging in.  All
+well and good.</p>
 
+<p>When I first logged into the mobile banking app, a popup appeared saying,
+approximately, &#8220;We&#8217;re sending you a code via SMS.  Please type it in.&#8221;  I
+immediately received the SMS <em>on the same phone</em>.  Can you see the problem here?</p>
 
+<p>If an adversary has my phone, they&#8217;ve already got the &#8220;something I have.&#8221;  My
+two-factor auth security has been reduced to a single factor: my password.</p>
 
-<article>
-  
-<h1><a href="/blog/2013/06/19/cant-we-all-just-get-along/">Infosec's Jerk Problem</a></h1>
-<time datetime="2013-06-19T14:59:00-04:00" pubdate><span class='month'>Jun</span> <span class='day'>19</span> <span class='year'>2013</span></time>
+<p>There are a few cases where it makes sense, like if the attacker&#8217;s installing
+the app on a different phone.</p>
 
-</article>
+<p>Ultimately, however, when using the app on the same phone you use to log in,
+you&#8217;ve reduced your two-factor auth to a single factor.</p>
 
+<p>I&#8217;d rather see a system where you have to use a previously-authenticated
+computer to get the first-time login code &#8211; think the reverse of the
+traditional two-factor auth approach.</p>
+
+<h2>Password complexity and the tyranny of the soft keyboard</h2>
+
+<p>Then there&#8217;s the other credential: the password.  MITFCU&#8217;s app logs you out after a short time, whereupon you must reenter your login password.</p>
 </div>
 
+
+  <footer>
+    <p class="meta">
+      
   
+
+<span class="byline author vcard">Posted by <span class="fn">Christian Ternus</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-04-25T19:59:00-04:00" pubdate data-updated="true">Apr 25<span>th</span>, 2013</time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://adversari.es//blog/2013/04/25/on-mobile-devices-and-two-factor-auth/" data-via="ternus" data-counturl="http://adversari.es//blog/2013/04/25/on-mobile-devices-and-two-factor-auth/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+      
+        <a class="basic-alignment right" href="/blog/2013/06/19/cant-we-all-just-get-along/" title="Next Post: Infosec's Jerk Problem">Infosec's Jerk Problem &raquo;</a>
+      
+    </p>
+  </footer>
 </article>
 
 </div>
