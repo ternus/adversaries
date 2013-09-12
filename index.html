@@ -549,78 +549,6 @@ most valued by all civilized men&#8221;: to be left alone.</p>
   <header>
   
     
-      <h1 class="entry-title"><a href="/blog/2013/06/24/lets-change-how-we-interview-hackers/">Let&#8217;s Change How We Interview Hackers</a></h1>
-      
-      
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-06-24T11:39:00-04:00" pubdate data-updated="true">Jun 24<span>th</span>, 2013</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>I&#8217;m convinced that the way most companies interview hackers can be significantly &#8211; and easily &#8211; improved. To do this, I&#8217;m going to apply Akamai&#8217;s design principles to the idea of interviewing.</p>
-
-<h2>Problem statement and goals</h2>
-
-<p>Let&#8217;s think of it in terms of information theory. An interview is a temporary two-way information channel. Both of you want to maximize the <em>total throughput</em> of this channel. You, the interviewer, want to glean as much information as possible about the candidate, and he or she would like to learn as much as possible about you and the job.</p>
-
-<p>With this goal in mind, let&#8217;s try to design an interview.</p>
-
-<h3>Version 0</h3>
-
-<p>The candidate shows up with a prepared script, which they read out loud. At exactly the halfway point, they stop and you begin reading your prepared script, which consumes the other half of the time. You shake hands and part.</p>
-
-<p>As silly as this is, it fulfills the basic requirements of the interview: both of you have learned something about the other. A naive optimizer might even consider this a productive use of time &#8211; the channel between you and the candidate is constantly in use, and both of you are consistently transmitting information. Given more than a cursory glance, It&#8217;s obvious that this is a bad use of time.</p>
-
-<p>Our first optimization is pretty clear: it&#8217;s not an email exchange, it&#8217;s a face-to-face communication, so let&#8217;s treat it like one by making it an interactive process.</p>
-
-<h3>Version 1</h3>
-
-<p>You show up with a list of questions. The candidate answers the questions one by one. At the end, you ask the candidate if they have any questions, they ask you a few (or not) and leave.</p>
-
-<p>Many places don&#8217;t go further than this. Some interviewers believe this is what interviews <em>are</em>, and their companies don&#8217;t guide them towards anything better. This gets you the information you&#8217;re looking for: does the candidate know the answers? are their answers correct, reasonable, sane? You certainly get more impression of the candidate&#8217;s soft skills than Version 0.</p>
-
-<p>To describe what&#8217;s wrong with this, let&#8217;s introduce a few more goals you might not know you had. To first order, the company</p>
-
-<ol>
-<li>wants to hire good candidates and</li>
-<li>wants to avoid bad candidates.</li>
-</ol>
-
-
-<p>The second is more important than the first.</p>
-
-<p>You want to evaluate the <em>longitudinal</em> ability of the candidate &#8211; in other words, look at their abilities overall, not just within the artificial Q&amp;A environment of the interview. You may be familiar with the concept of &#8220;testing well&#8221; &#8211; people who have mastered the skill of <em>taking tests</em> regardless of the subject matter &#8211; as well as the opposite.</p>
-
-<p>http://courses.csail.mit.edu/iap/interview/Hacking_a_Google_Interview_Handout_1.pdf</p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-  
-    
       <h1 class="entry-title"><a href="/blog/2013/06/19/cant-we-all-just-get-along/">Infosec&#8217;s Jerk Problem</a></h1>
       
       
@@ -864,80 +792,6 @@ follow.</strong></p>
 
     </article>
   
-  
-    <article>
-      
-  <header>
-  
-    
-      <h1 class="entry-title"><a href="/blog/2013/04/25/on-mobile-devices-and-two-factor-auth/">A Note on the Security of Mobile Banking Apps</a></h1>
-      
-      
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-04-25T19:59:00-04:00" pubdate data-updated="true">Apr 25<span>th</span>, 2013</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>My bank, <a href="http://mitfcu.org">MITFCU</a>, just came out with a mobile banking app.
-Like similar apps from other financial institutions, the app allows you to
-view your accounts, deposit checks, transfer money, and so on.  It&#8217;s both
-useful and convenient, but it has a couple of potentially serious security
-issues.</p>
-
-<h2>Insecure two-factor authentication</h2>
-
-<p>Like any security-conscious person, I had two-factor auth turned on for my
-bank account.  Two-factor authentication in its basic form relies on the
-combination of &#8220;something you know&#8221; (generally a password) with &#8220;something you
-have&#8221; (a phone number for SMS, email address, RSA fob, smart card, etc.)</p>
-
-<p>Whenever I log in to MITFCU&#8217;s desktop site, I receive a text message with a
-six-digit code, which I must provide in order to continue logging in.  All
-well and good.</p>
-
-<p>When I first logged into the mobile banking app, a popup appeared saying,
-approximately, &#8220;We&#8217;re sending you a code via SMS.  Please type it in.&#8221;  I
-immediately received the SMS <em>on the same phone</em>.  Can you see the problem here?</p>
-
-<p>If an adversary has my phone, they&#8217;ve already got the &#8220;something I have.&#8221;  My
-two-factor auth security has been reduced to a single factor: my password.</p>
-
-<p>There are a few cases where it makes sense, like if the attacker&#8217;s installing
-the app on a different phone.</p>
-
-<p>Ultimately, however, when using the app on the same phone you use to log in,
-you&#8217;ve reduced your two-factor auth to a single factor.</p>
-
-<p>I&#8217;d rather see a system where you have to use a previously-authenticated
-computer to get the first-time login code &#8211; think the reverse of the
-traditional two-factor auth approach.</p>
-
-<h2>Password complexity and the tyranny of the soft keyboard</h2>
-
-<p>Then there&#8217;s the other credential: the password.  MITFCU&#8217;s app logs you out after a short time, whereupon you must reenter your login password.</p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
     <a href="/blog/archives">Blog Archives</a>
@@ -959,15 +813,7 @@ traditional two-factor auth approach.</p>
       </li>
     
       <li class="post">
-        <a href="/blog/2013/06/24/lets-change-how-we-interview-hackers/">Let&#8217;s Change How We Interview Hackers</a>
-      </li>
-    
-      <li class="post">
         <a href="/blog/2013/06/19/cant-we-all-just-get-along/">Infosec&#8217;s Jerk Problem</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2013/04/25/on-mobile-devices-and-two-factor-auth/">A note on the security of mobile banking apps</a>
       </li>
     
   </ul>
