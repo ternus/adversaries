@@ -85,12 +85,14 @@
 
 <time datetime="2013-07-23T18:09:00-04:00" pubdate data-updated="true">Jul 23<span>rd</span>, 2013</time>
         
+         | <a href="#disqus_thread">Comments</a>
+        
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>Companies are investing more effort than ever before in tracking you online, and not just on their sites. They use the data provided by your browser to <a href="http://donttrack.us">build a profile of you</a> that can follow you across the web. In this post, I&#8217;ll describe a suite of defensive techniques to push back against this tracking while still able to enjoy the modern web experience.</p>
+<div class="entry-content"><p>Companies are investing more effort than ever before in tracking you online, and not just on their sites. They use the data provided by your browser to <a href="http://donttrack.us">build a profile of you</a> that can follow you across the web. In this post, I&rsquo;ll describe a suite of defensive techniques to push back against this tracking while still able to enjoy the modern web experience.</p>
 
 <h1>Goals</h1>
 
@@ -106,43 +108,43 @@
 
 <h2>Use an anonymizing VPN</h2>
 
-<p>I use <a href="https://www.privateinternetaccess.com/">Private Internet Access</a> which is $40/year, but there are a number of great options, including self-setup VPNs. All my web traffic flows through them, thus denying sites I visit the opportunity to discriminate based on my IP address &#8211; perhaps the easiest way for sites to track you.</p>
+<p>I use <a href="https://www.privateinternetaccess.com/">Private Internet Access</a> which is $40/year, but there are a number of great options, including self-setup VPNs. All my web traffic flows through them, thus denying sites I visit the opportunity to discriminate based on my IP address &mdash; perhaps the easiest way for sites to track you.</p>
 
-<p>Your IP address can be used to geolocate you with an astonishing degree of precision. If you&#8217;re serious about privacy, be sure to use a VPN. You&#8217;ll also want to enable the option that disconnects your network when the VPN isn&#8217;t connected to prevent accidentally using an unencrypted connection.</p>
+<p>Your IP address can be used to geolocate you with an astonishing degree of precision. If you&rsquo;re serious about privacy, be sure to use a VPN. You&rsquo;ll also want to enable the option that disconnects your network when the VPN isn&rsquo;t connected to prevent accidentally using an unencrypted connection.</p>
 
 <h2>Use Firefox</h2>
 
-<p>I love Google Chrome, and it&#8217;s been very difficult for me to switch &#8211; but using a browser provided by a company whose business model centers around compiling as precise a profile of you as possible is no longer compatible with the goals I outlined above. An excellent example of this is how the default configuration reports a heap of data to Google, while burying the &#8220;do not track&#8221; setting (which Chrome was the last browser to implement) in &#8220;advanced settings&#8221; and giving you a warning if you enable it.</p>
+<p>I love Google Chrome, and it&rsquo;s been very difficult for me to switch &mdash; but using a browser provided by a company whose business model centers around compiling as precise a profile of you as possible is no longer compatible with the goals I outlined above. An excellent example of this is how the default configuration reports a heap of data to Google, while burying the &ldquo;do not track&rdquo; setting (which Chrome was the last browser to implement) in &ldquo;advanced settings&rdquo; and giving you a warning if you enable it.</p>
 
-<p>I hadn&#8217;t used Firefox in years before I switched, but it&#8217;s gotten a lot better. In particular, I&#8217;m using the <a href="https://people.mozilla.com/~jwein/ux-nightly/">UX build</a> (warning: <em>very</em> beta), which has a Chrome-like interface.</p>
+<p>I hadn&rsquo;t used Firefox in years before I switched, but it&rsquo;s gotten a lot better. In particular, I&rsquo;m using the <a href="https://people.mozilla.com/~jwein/ux-nightly/">UX build</a> (warning: <em>very</em> beta), which has a Chrome-like interface.</p>
 
 <h3>Firefox Settings</h3>
 
-<p>It&#8217;s easy to tune Firefox to maximize your privacy without diminishing your experience.</p>
+<p>It&rsquo;s easy to tune Firefox to maximize your privacy without diminishing your experience.</p>
 
 <h4>Privacy</h4>
 
-<p>Under the &#8220;Privacy&#8221; tab in the preferences page, select &#8220;Tell sites I do not want to be tracked.&#8221; Of course, sites are under no obligation to obey this flag, but it doesn&#8217;t hurt to make our preferences clear.</p>
+<p>Under the &ldquo;Privacy&rdquo; tab in the preferences page, select &ldquo;Tell sites I do not want to be tracked.&rdquo; Of course, sites are under no obligation to obey this flag, but it doesn&rsquo;t hurt to make our preferences clear.</p>
 
-<p>Set the history preference to &#8220;Use custom settings for history,&#8221; change &#8220;Accept third-party cookies&#8221; to &#8220;Never.&#8221; I&#8217;ll let CNET <a href="http://howto.cnet.com/8301-11310_39-20042703-285/disable-third-party-cookies-in-ie-firefox-and-google-chrome/">explain why</a>:</p>
+<p>Set the history preference to &ldquo;Use custom settings for history,&rdquo; change &ldquo;Accept third-party cookies&rdquo; to &ldquo;Never.&rdquo; I&rsquo;ll let CNET <a href="http://howto.cnet.com/8301-11310_39-20042703-285/disable-third-party-cookies-in-ie-firefox-and-google-chrome/">explain why</a>:</p>
 
 <blockquote><p> So if third-party cookies offer no direct benefit to users and can potentially be a threat, why do all the major browser makers default to allowing sites to leave all the cookies they want on your machine? Because the advertisers are their customers and are at least as important to them as users are.</p></blockquote>
 
-<p>Continue accepting cookies in general, though. We&#8217;ll get to why that&#8217;s OK later.</p>
+<p>Continue accepting cookies in general, though. We&rsquo;ll get to why that&rsquo;s OK later.</p>
 
 <h4>Security</h4>
 
-<p>Uncheck &#8220;Remember passwords for sites.&#8221; We have a better option.</p>
+<p>Uncheck &ldquo;Remember passwords for sites.&rdquo; We have a better option.</p>
 
 <h4>Search Engine</h4>
 
-<p>I tried switching to <a href="https://duckduckgo.com">DuckDuckGo</a> but found that after nearly 1.5 decades of using Google the search quality was much poorer. (For example, when searching for the UX build link above, I searched for &#8220;firefox UX&#8221;, &#8220;firefox UX build&#8221;, &#8220;firefox UX nightly&#8221; etc. on DuckDuckGo, none of which produced the result I wanted. One search on Google and the first result was correct.)</p>
+<p>I tried switching to <a href="https://duckduckgo.com">DuckDuckGo</a> but found that after nearly 1.5 decades of using Google the search quality was much poorer. (For example, when searching for the UX build link above, I searched for &ldquo;firefox UX&rdquo;, &ldquo;firefox UX build&rdquo;, &ldquo;firefox UX nightly&rdquo; etc. on DuckDuckGo, none of which produced the result I wanted. One search on Google and the first result was correct.)</p>
 
-<p>If you want a more privacy-respecting engine than Google but can&#8217;t give up (most of) Google&#8217;s search quality, use <a href="https://startpage.com">Startpage</a>. This site uses Google as a backend for search results.</p>
+<p>If you want a more privacy-respecting engine than Google but can&rsquo;t give up (most of) Google&rsquo;s search quality, use <a href="https://startpage.com">Startpage</a>. This site uses Google as a backend for search results.</p>
 
 <h4>Block Referer [sic] Header</h4>
 
-<p>Type &#8220;about:config&#8221; in the address bar, then type &#8220;referer&#8221; in the search bar. You want to set the <code>network.http.sendRefererHeader</code> value to 0, which will prevent the browser from sending <code>Referer:</code> headers. When clicking on a link from page A to B, this will prevent B from seeing the URL of A.</p>
+<p>Type &ldquo;about:config&rdquo; in the address bar, then type &ldquo;referer&rdquo; in the search bar. You want to set the <code>network.http.sendRefererHeader</code> value to 0, which will prevent the browser from sending <code>Referer:</code> headers. When clicking on a link from page A to B, this will prevent B from seeing the URL of A.</p>
 
 <h2>Firefox Addons</h2>
 
@@ -150,7 +152,7 @@
 
 <h3><a href="https://lastpass.com">LastPass</a></h3>
 
-<p>Fun fact: I don&#8217;t actually know the vast majority of my passwords. LastPass is a cross-platform (Windows/Mac/Linux/Android/iOS) password manager that generates and securely stores passwords and form-fill info. It uses client-side encryption to protect your data and allows auto-login and auto-fill. Highly recommended.</p>
+<p>Fun fact: I don&rsquo;t actually know the vast majority of my passwords. LastPass is a cross-platform (Windows/Mac/Linux/Android/iOS) password manager that generates and securely stores passwords and form-fill info. It uses client-side encryption to protect your data and allows auto-login and auto-fill. Highly recommended.</p>
 
 <h3><a href="https://www.eff.org/https-everywhere">HTTPS Everywhere</a></h3>
 
@@ -158,7 +160,7 @@
 
 <h3><a href="https://addons.mozilla.org/en-US/firefox/addon/self-destructing-cookies/">Self-Destructing Cookies</a></h3>
 
-<p>Deletes cookies for a site as soon as you close the tab. You&#8217;ll want to whitelist sites you want to stay logged into, but this is a one-time operation per site. This can go a long, long way towards preventing sites from building a profile of you. This gets you most of the benefit of disabling cookies while still allowing you to log in.</p>
+<p>Deletes cookies for a site as soon as you close the tab. You&rsquo;ll want to whitelist sites you want to stay logged into, but this is a one-time operation per site. This can go a long, long way towards preventing sites from building a profile of you. This gets you most of the benefit of disabling cookies while still allowing you to log in.</p>
 
 <h3><a href="https://adblockplus.org/en/firefox">Adblock Plus</a></h3>
 
@@ -166,21 +168,21 @@
 
 <h3><a href="https://addons.mozilla.org/en-US/firefox/addon/betterprivacy/">BetterPrivacy</a></h3>
 
-<p>Has just one purpose: to disable LSOs (locally stored objects), a type of &#8220;super-cookie&#8221; used by Flash.</p>
+<p>Has just one purpose: to disable LSOs (locally stored objects), a type of &ldquo;super-cookie&rdquo; used by Flash.</p>
 
 <h3><a href="https://addons.mozilla.org/en-US/firefox/addon/ghostery/">Ghostery</a></h3>
 
-<p>Blocks a wide range of tracking methods 99% non-intrusively. The default configuration gives you a little popup at the upper right of your browser, which is occasionally interesting (&#8220;I had no idea this page felt the need to track me in 12 different ways&#8221;). Will occasionally break a page in a non-obvious way (&#8220;I feel like there should be comments here&#8230;&#8221;) but it&#8217;s easy to disable temporarily if reading internet comments is your thing. <em>cough</em></p>
+<p>Blocks a wide range of tracking methods 99% non-intrusively. The default configuration gives you a little popup at the upper right of your browser, which is occasionally interesting (&ldquo;I had no idea this page felt the need to track me in 12 different ways&rdquo;). Will occasionally break a page in a non-obvious way (&ldquo;I feel like there should be comments here&hellip;&rdquo;) but it&rsquo;s easy to disable temporarily if reading internet comments is your thing. <em>cough</em></p>
 
 <h3><a href="https://www.dephormation.org.uk/index.php?page=81">Secret Agent</a></h3>
 
-<p>Cookies aren&#8217;t the only way sites fingerprint your browser &#8211; one of the most common methods is the user-agent string. This extension randomizes the user-agent string sent along with your browser on every request, thus spreading your information among a number of different profiles and making you harder to track. It&#8217;ll also randomize the HTTP Accept headers.</p>
+<p>Cookies aren&rsquo;t the only way sites fingerprint your browser &mdash; one of the most common methods is the user-agent string. This extension randomizes the user-agent string sent along with your browser on every request, thus spreading your information among a number of different profiles and making you harder to track. It&rsquo;ll also randomize the HTTP Accept headers.</p>
 
-<p>Unfortunately, the default user-agent list Secret Agent ships with causes problems with sites as their capability-detection mechanisms go haywire (Lynx?!). I&#8217;ve created my own <a href="http://adversari.es/assets/useragentlist.txt">list of modern user agents</a> consisting of the most popular browser strings from Firefox, Chrome, and Safari.</p>
+<p>Unfortunately, the default user-agent list Secret Agent ships with causes problems with sites as their capability-detection mechanisms go haywire (Lynx?!). I&rsquo;ve created my own <a href="http://adversari.es/assets/useragentlist.txt">list of modern user agents</a> consisting of the most popular browser strings from Firefox, Chrome, and Safari.</p>
 
 <h3><a href="https://addons.mozilla.org/en-US/firefox/addon/flashblock/">Flashblock</a></h3>
 
-<p>Disallows Flash from running by default, replacing Flash applets with a placeholder that runs the applet when clicked. Not only does this protect against malicious (or annoying!) Flash apps, it&#8217;ll prevent browsers from using Flash-based fingerprinting methods (such as loading the list of installed fonts). I&#8217;ve used click-to-run on Google Chrome for ages and it&#8217;s been great.</p>
+<p>Disallows Flash from running by default, replacing Flash applets with a placeholder that runs the applet when clicked. Not only does this protect against malicious (or annoying!) Flash apps, it&rsquo;ll prevent browsers from using Flash-based fingerprinting methods (such as loading the list of installed fonts). I&rsquo;ve used click-to-run on Google Chrome for ages and it&rsquo;s been great.</p>
 
 <h1>Out of Scope</h1>
 
@@ -188,9 +190,9 @@
 
 <h1>Conclusion</h1>
 
-<p>You can see the impact of some of these techniques using <a href="https://panopticlick.eff.org">Panopticlick</a>. If your browser is unique, don&#8217;t worry &#8211; just check how it changes on each reload, which Secret Agent should help with.</p>
+<p>You can see the impact of some of these techniques using <a href="https://panopticlick.eff.org">Panopticlick</a>. If your browser is unique, don&rsquo;t worry &mdash; just check how it changes on each reload, which Secret Agent should help with.</p>
 
-<p>These techniques should allow you to browse the web with greater confidence that companies aren&#8217;t tracking you everywhere you go.</p>
+<p>These techniques should allow you to browse the web with greater confidence that companies aren&rsquo;t tracking you everywhere you go.</p>
 
 <p><em>Got any other suggestions for low-impact privacy improvements? Tweet me at <a href="https://twitter.com/ternus">@ternus</a>.</em></p>
 </div>
@@ -241,6 +243,12 @@
   </footer>
 </article>
 
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
 </div>
 
 <aside class="sidebar">
@@ -281,6 +289,22 @@
 
 </footer>
   
+
+<script type="text/javascript">
+      var disqus_shortname = 'adversarial-thinking';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://adversari.es//blog/2013/07/23/paranoid-browsing-for-fun-and-profit/';
+        var disqus_url = 'http://adversari.es//blog/2013/07/23/paranoid-browsing-for-fun-and-profit/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
 
 
 

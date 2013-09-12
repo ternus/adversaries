@@ -4,7 +4,7 @@
   <title><![CDATA[Adversarial Thinking]]></title>
   <link href="http://adversari.es//atom.xml" rel="self"/>
   <link href="http://adversari.es//"/>
-  <updated>2013-09-12T00:53:38-04:00</updated>
+  <updated>2013-09-12T01:08:04-04:00</updated>
   <id>http://adversari.es//</id>
   <author>
     <name><![CDATA[Christian Ternus]]></name>
@@ -29,10 +29,10 @@
 <p><em>Many in the public policy, defense, technology, and security
 communities have long known, and Edward Snowden gave his freedom to
 remind us, that the United States government is progressively
-expanding a comprehensive, intrusive intelligence-gathering system &#8211;
+expanding a comprehensive, intrusive intelligence-gathering system &mdash;
 a Panopticon with capabilities the average citizen can neither
-comprehend nor resist &#8211; a system with unprecedented power for tyranny
-and repression &#8211; and it will be far harder to dismantle than it was
+comprehend nor resist &mdash; a system with unprecedented power for tyranny
+and repression &mdash; and it will be far harder to dismantle than it was
 to build. There are ways legislators, technologists, and the public
 can push back, and we must do so as soon as possible to avert a terrible
 future.</em></p>
@@ -50,15 +50,15 @@ by a wide cross-section of the American media and political
 establishment.</li>
 <li>We have a cultural need to place blame on individuals or groups for
 bad events, even those that result from systemic failure.</li>
-<li>The United States &#8211; hereafter &#8220;we&#8221;, though much of this applies to
-the &#8220;five eyes&#8221; (viz. Australia, Canada, New Zealand, the UK, and
-the US) as well &#8211; has made massive investments in &#8220;homeland
-security&#8221; signals intelligence for a variety of purposes, including but not
+<li>The United States &mdash; hereafter &ldquo;we&rdquo;, though much of this applies to
+the &ldquo;five eyes&rdquo; (viz. Australia, Canada, New Zealand, the UK, and
+the US) as well &mdash; has made massive investments in &ldquo;homeland
+security&rdquo; signals intelligence for a variety of purposes, including but not
 limited to counter-terrorism.</li>
 <li>The United States National Security Agency (NSA)
 <a href="http://www.wired.com/opinion/2013/09/black-budget-what-exactly-are-the-nsas-cryptanalytic-capabilities/">probably spends more on cryptography research than everyone else put together</a>. They
 publish very little research. Thus, the cutting edge
-of public research is likely an inaccurate predictor of the NSA&#8217;s
+of public research is likely an inaccurate predictor of the NSA&rsquo;s
 cryptologic capabilities.</li>
 <li>The prospect of collateral damage does not, in practice, deter the
 American intelligence apparatus from using its capabilities to
@@ -75,9 +75,9 @@ extent of their capability in this regard.</li>
 <a href="http://www.washingtonpost.com/world/national-security/for-nsa-chief-terrorist-threat-drives-passion-to-collect-it-all/2013/07/14/3d26ef80-ea49-11e2-a301-ea5a8116d211_story.html">believes</a>
 that only by collecting all available data can the NSA effectively
 thwart terrorism.</li>
-<li>The public state of the art in data storage and analysis &#8211; storage
+<li>The public state of the art in data storage and analysis &mdash; storage
 capacity, processing speed, statistical techniques, available
-software, automation capability &#8211; is several orders of magnitude better
+software, automation capability &mdash; is several orders of magnitude better
 than it was 20 years ago. We have no reason to expect this trend
 will not continue.</li>
 </ul>
@@ -85,11 +85,11 @@ will not continue.</li>
 
 <h1>Where we could go</h1>
 
-<p>Imagine you&#8217;re the director of US
-national intelligence. It&#8217;s a few years from now, and you&#8217;ve been given
+<p>Imagine you&rsquo;re the director of US
+national intelligence. It&rsquo;s a few years from now, and you&rsquo;ve been given
 an enormous budget and an effectively unlimited supply of smart people
 to end the terrorism problem. With these resources you build <em>Deep
-Thought</em> &#8211; a machine with access to an unfathomably deep database,
+Thought</em> &mdash; a machine with access to an unfathomably deep database,
 capable of answering arbitrarily-formed questions about the population
 of the US.</p>
 
@@ -103,11 +103,11 @@ machine and say,</p>
 anarchist cranks, would-be Unabombers, and so on. The dedicated men
 and women of our national security agencies round up these dangerous
 criminals and lock them away. The nation rejoices. The TSA lets you
-fly with shampoo again. Everyone&#8217;s happy.</p>
+fly with shampoo again. Everyone&rsquo;s happy.</p>
 
 <p>There is just one catch: Deep Thought is <em>still sitting there</em>, waiting
 to accept input. The nation has already sunk the cost of building it,
-and it&#8217;s not about to shut it off any more than, say, unilaterally
+and it&rsquo;s not about to shut it off any more than, say, unilaterally
 destroy the entire strategic nuclear arsenal. But since we <em>have it</em>:</p>
 
 <blockquote><p>Show me the murderers.</p>
@@ -137,8 +137,8 @@ United States government.</p>
 
 <p>Show me the hackers.</p></blockquote>
 
-<p>It is still pretty easy to justify. These are dangerous people &#8211;
-traitors, even. &#8220;Crazies.&#8221; Nobody really complains.</p>
+<p>It is still pretty easy to justify. These are dangerous people &mdash;
+traitors, even. &ldquo;Crazies.&rdquo; Nobody really complains.</p>
 
 <p>Who is left? <em>Anyone you want</em>.</p>
 
@@ -146,13 +146,13 @@ traitors, even. &#8220;Crazies.&#8221; Nobody really complains.</p>
 
 <p>Show me the activists.</p>
 
-<p>Show me&#8230;</p></blockquote>
+<p>Show me&hellip;</p></blockquote>
 
-<h2>Frequently exclaimed &#8220;but!&#8221;s</h2>
+<h2>Frequently exclaimed &ldquo;but!&#8221;s</h2>
 
 <h3>That system you described is impossible.</h3>
 
-<p>I agree &#8211; there&#8217;s no way we could ever build a system with <em>zero
+<p>I agree &mdash; there&rsquo;s no way we could ever build a system with <em>zero
 error rate</em>. Either we would miss some terrorists by ensuring
 P(terrorist)=1 (and if you think we would take this road, I have a
 <a href="https://en.wikipedia.org/wiki/Dual_EC_DRBG">deterministic random bit generator</a>
@@ -161,9 +161,9 @@ dolphins in a net of
 tuna. <a href="https://en.wikipedia.org/wiki/Khalid_El-Masri">See: this guy</a>.</p>
 
 <p>A 100%-accurate system like this is impossible with the tech we have
-today. Much more likely is a system &#8211; much like ones we have today &#8211;
+today. Much more likely is a system &mdash; much like ones we have today &mdash;
 that gives a <em>probability</em> of being a terrorist. Unfortunately,
-decision-makers aren&#8217;t often big on fuzzy probabilities:</p>
+decision-makers aren&rsquo;t often big on fuzzy probabilities:</p>
 
 <blockquote><p>&#8220;I don&#8217;t need this,&#8221; Harris reports that a senior CIA officer working<br/>on the agency&#8217;s drone program once told an NSA analyst who showed up<br/>with a big, nebulous graph. &#8220;I just need you to tell me whose ass to<br/>put a Hellfire missile on.&#8221;</p><footer><strong>Business Insider,</strong> <cite><a href='http://www.businessinsider.com/the-nsas-strength-may-be-biggest-weakness-2013-9'>The NSA&#8217;s Strength May Be Its Biggest Weakness</a></cite></footer></blockquote>
 
@@ -174,63 +174,63 @@ decision-makers aren&#8217;t often big on fuzzy probabilities:</p>
 this sort of behavior. Web advertising companies jumping on the
 big-data bandwagon have discovered Target et
 al. <a href="http://www.nytimes.com/2012/02/19/magazine/shopping-habits.html?pagewanted=all&amp;_r=0">already there</a>. What
-can the NSA accomplish with Google/Facebook/Comcast/Verizon/AT&amp;T&#8217;s
+can the NSA accomplish with Google/Facebook/Comcast/Verizon/AT&amp;T&rsquo;s
 knowledge of your online habits, plus their own sources? What profile
 could they build of you? In theory, they can suborn your laptop, your
 smartphone (a remotely-operable listening device with a location
 tracker built in, great!), your landline, every Internet connection in
 your house and business, your physical mail, your email, your
 OnStar-enabled car, every online profile you have unless you adopt the
-life of a complete paranoiac &#8211; and even then it only takes one
+life of a complete paranoiac &mdash; and even then it only takes one
 misstep for them to get
 you. <a href="http://nakedsecurity.sophos.com/2012/12/03/john-mcafee-location-exif/">Ask John McAfee.</a></p>
 
 <p>Certainly there are technical capabilities that are out of their reach
-at this moment; that&#8217;s why they&#8217;re storing all the data for future
+at this moment; that&rsquo;s why they&rsquo;re storing all the data for future
 analysis. Data that currently seems inconsequential might be far less
 so later. Currently-unbreakable crypto protocols (and remember, they
 spend more on crypto research than the <em>entire rest of the world put
-together</em>) may not be so unbreakable later. Good thing for them it&#8217;s
+together</em>) may not be so unbreakable later. Good thing for them it&rsquo;s
 all on disk.</p>
 
 <h3>This is unconstitutional.</h3>
 
-<p>Probably, but that hasn&#8217;t stopped them. Their interpretation of the
-law and the Constitution most likely doesn&#8217;t match yours.</p>
+<p>Probably, but that hasn&rsquo;t stopped them. Their interpretation of the
+law and the Constitution most likely doesn&rsquo;t match yours.</p>
 
-<p><a href="http://cryptome.org/nsa-ussid18-80.htm#SECTION%203">The NSA doesn&#8217;t consider automated interception and bulk analysis a &#8220;collection&#8221;</a>,
+<p><a href="http://cryptome.org/nsa-ussid18-80.htm#SECTION%203">The NSA doesn&rsquo;t consider automated interception and bulk analysis a &ldquo;collection&rdquo;</a>,
 meaning it can build as large of a profile of you as it wants, no
 approval required, as long as no human intentionally instructs it to
 do so. Should it ever decide it needs approval, the Foreign
-Intelligence Surveillance Court&#8217;s
+Intelligence Surveillance Court&rsquo;s
 <a href="https://en.wikipedia.org/wiki/United_States_Foreign_Intelligence_Surveillance_Court#Criticism">approval rate is 99.97%</a>.</p>
 
 <h3>We would know if this were happening.</h3>
 
 <p>The NSA, DEA, and FBI have demonstrated willingness to lie to the
 courts (through the method of
-<a href="https://www.eff.org/deeplinks/2013/08/dea-and-nsa-team-intelligence-laundering">&#8220;parallel construction&#8221;</a>,
+<a href="https://www.eff.org/deeplinks/2013/08/dea-and-nsa-team-intelligence-laundering">&ldquo;parallel construction&rdquo;</a>,
 also known as intelligence laundering) about the source of their
 information. They have repeatedly misled Congress about their
-activities. They have <a href="http://www.slate.com/articles/news_and_politics/politics/2013/07/nsa_lexicon_how_james_clapper_and_other_u_s_officials_mislead_the_american.html">redefined</a> words like &#8220;incidental,&#8221; &#8220;relevant,&#8221;
-and &#8220;targeted&#8221; in positively Clintonian fashion. They believe that the
+activities. They have <a href="http://www.slate.com/articles/news_and_politics/politics/2013/07/nsa_lexicon_how_james_clapper_and_other_u_s_officials_mislead_the_american.html">redefined</a> words like &ldquo;incidental,&rdquo; &ldquo;relevant,&rdquo;
+and &ldquo;targeted&rdquo; in positively Clintonian fashion. They believe that the
 disclosure of the existence and operation of this technical apparatus
 is tantamount to treason against the United States.</p>
 
 <p>You are free to believe, as President Obama
 <a href="https://www.nytimes.com/2013/08/10/us/politics/obamas-remarks-at-a-news-conference.html?pagewanted=all">claims</a>,
-that we would be having this debate even if Snowden hadn&#8217;t done what he
+that we would be having this debate even if Snowden hadn&rsquo;t done what he
 did. I do not believe this.</p>
 
-<h3>My life is not interesting enough to be surveilled (often rendered as &#8220;I&#8217;m too boring.&#8221;)</h3>
+<h3>My life is not interesting enough to be surveilled (often rendered as &ldquo;I&rsquo;m too boring.&rdquo;)</h3>
 
 <p>The background assumptions there:</p>
 
 <ul>
 <li>it costs the government some nontrivial amount to watch me, and</li>
-<li>they don&#8217;t gain anything of worth by doing so (after all, I am not a
+<li>they don&rsquo;t gain anything of worth by doing so (after all, I am not a
 terrorist!), so</li>
-<li>it&#8217;s not worth it to them to do so.</li>
+<li>it&rsquo;s not worth it to them to do so.</li>
 </ul>
 
 
@@ -240,7 +240,7 @@ terrorist!), so</li>
 limited by money and very expensive human time in the scope of their
 surveillance. If they wanted to watch you, an actual human had to
 spend time listening to you, following you, reading your physical
-mail, and so on &#8211; with the associated Fourth Amendment implications,
+mail, and so on &mdash; with the associated Fourth Amendment implications,
 to the degree the government followed them.</p>
 
 <p>This is dramatically less true in an era of supercomputers and data
@@ -251,7 +251,7 @@ surveil <em>you</em> is effectively zero, and the downside risk for failing to
 surveil the right people is high. They may have more to lose by <em>not</em>
 watching you than the other way around.</p>
 
-<h3>What harm does it do? If you&#8217;re doing nothing wrong, you have nothing to hide.</h3>
+<h3>What harm does it do? If you&rsquo;re doing nothing wrong, you have nothing to hide.</h3>
 
 <p>No. If I have done nothing wrong, you have no reason to watch me.</p>
 
@@ -263,24 +263,24 @@ You take fewer risks: the fear of <em>appearing</em> guilty, even with the
 most innocent of motives, is enough to deter you from taking actions
 that might appear such to a hostile audience. You watch what you
 Google, you watch what you say on the phone. In small ways, your life
-begins to resemble an airport security line (&#8220;don&#8217;t joke about bombs
-&#8211; they might be listening!&#8221;). In order to thrive, our democracy
+begins to resemble an airport security line (&ldquo;don&rsquo;t joke about bombs
+&mdash; they might be listening!&rdquo;). In order to thrive, our democracy
 requires that discourse. We need the ability to hold discussions
 current (or future!) administrations might not like. We need to be
 able to hold opinions others might detest. We need privacy to
 flourish, and I do not believe we can be fully human, fully free,
 without it.</p>
 
-<h3>I don&#8217;t care. If the government says they need it to catch terrorists, I trust them.</h3>
+<h3>I don&rsquo;t care. If the government says they need it to catch terrorists, I trust them.</h3>
 
 <p>Even with several <em>very</em> generous assumptions about the honesty,
 integrity, and competence of the current administration (for whom I
-voted twice, and about which enough has been said) &#8211; governments
+voted twice, and about which enough has been said) &mdash; governments
 change. We should be deeply cautious of such a powerful tool,
 potentially the most powerful instrument of tyranny and oppression a
 government has ever possessed, in the hands of any administration, no
 matter how benign.  All it takes is one election. If the transition
-from the Bush to Obama administrations has taught us anything, it&#8217;s
+from the Bush to Obama administrations has taught us anything, it&rsquo;s
 that a change in party in no way necessitates a lessening of executive
 power.</p>
 
@@ -307,7 +307,7 @@ be for them to forget, our government works for us.</p>
 or support systems that engage in privacy- and liberty-destroying mass
 surveillance. Transparency reports are a good start, but those with
 the clout and resources to fight these orders must stand up and do so
-&#8211; large companies, mostly, but individuals can as well. We must
+&mdash; large companies, mostly, but individuals can as well. We must
 establish a strong ethical basis to guide those in my profession as
 we develop the technology of the future.</p>
 
@@ -320,8 +320,8 @@ a society we must stand up and say: <em>this is not who we are</em>. Though
 it may come at a price, we demand freedom of thought and conscience
 and association. We demand that our messages to our loved ones, our
 health, our finances, our lives, retain the privacy the Constitution
-specifically affords them. We demand what Voltaire called &#8220;the right
-most valued by all civilized men&#8221;: to be left alone.</p>
+specifically affords them. We demand what Voltaire called &ldquo;the right
+most valued by all civilized men&rdquo;: to be left alone.</p>
 
 <p><em>I would love to hear your comments; I am <a href="https://twitter.com/ternus">@ternus</a> on Twitter.</em></p>
 ]]></content>
@@ -336,7 +336,7 @@ most valued by all civilized men&#8221;: to be left alone.</p>
     <updated>2013-07-23T18:09:00-04:00</updated>
     <id>http://adversari.es//blog/2013/07/23/paranoid-browsing-for-fun-and-profit</id>
     
-    <content type="html"><![CDATA[<p>Companies are investing more effort than ever before in tracking you online, and not just on their sites. They use the data provided by your browser to <a href="http://donttrack.us">build a profile of you</a> that can follow you across the web. In this post, I&#8217;ll describe a suite of defensive techniques to push back against this tracking while still able to enjoy the modern web experience.</p>
+    <content type="html"><![CDATA[<p>Companies are investing more effort than ever before in tracking you online, and not just on their sites. They use the data provided by your browser to <a href="http://donttrack.us">build a profile of you</a> that can follow you across the web. In this post, I&rsquo;ll describe a suite of defensive techniques to push back against this tracking while still able to enjoy the modern web experience.</p>
 
 <h1>Goals</h1>
 
@@ -352,43 +352,43 @@ most valued by all civilized men&#8221;: to be left alone.</p>
 
 <h2>Use an anonymizing VPN</h2>
 
-<p>I use <a href="https://www.privateinternetaccess.com/">Private Internet Access</a> which is $40/year, but there are a number of great options, including self-setup VPNs. All my web traffic flows through them, thus denying sites I visit the opportunity to discriminate based on my IP address &#8211; perhaps the easiest way for sites to track you.</p>
+<p>I use <a href="https://www.privateinternetaccess.com/">Private Internet Access</a> which is $40/year, but there are a number of great options, including self-setup VPNs. All my web traffic flows through them, thus denying sites I visit the opportunity to discriminate based on my IP address &mdash; perhaps the easiest way for sites to track you.</p>
 
-<p>Your IP address can be used to geolocate you with an astonishing degree of precision. If you&#8217;re serious about privacy, be sure to use a VPN. You&#8217;ll also want to enable the option that disconnects your network when the VPN isn&#8217;t connected to prevent accidentally using an unencrypted connection.</p>
+<p>Your IP address can be used to geolocate you with an astonishing degree of precision. If you&rsquo;re serious about privacy, be sure to use a VPN. You&rsquo;ll also want to enable the option that disconnects your network when the VPN isn&rsquo;t connected to prevent accidentally using an unencrypted connection.</p>
 
 <h2>Use Firefox</h2>
 
-<p>I love Google Chrome, and it&#8217;s been very difficult for me to switch &#8211; but using a browser provided by a company whose business model centers around compiling as precise a profile of you as possible is no longer compatible with the goals I outlined above. An excellent example of this is how the default configuration reports a heap of data to Google, while burying the &#8220;do not track&#8221; setting (which Chrome was the last browser to implement) in &#8220;advanced settings&#8221; and giving you a warning if you enable it.</p>
+<p>I love Google Chrome, and it&rsquo;s been very difficult for me to switch &mdash; but using a browser provided by a company whose business model centers around compiling as precise a profile of you as possible is no longer compatible with the goals I outlined above. An excellent example of this is how the default configuration reports a heap of data to Google, while burying the &ldquo;do not track&rdquo; setting (which Chrome was the last browser to implement) in &ldquo;advanced settings&rdquo; and giving you a warning if you enable it.</p>
 
-<p>I hadn&#8217;t used Firefox in years before I switched, but it&#8217;s gotten a lot better. In particular, I&#8217;m using the <a href="https://people.mozilla.com/~jwein/ux-nightly/">UX build</a> (warning: <em>very</em> beta), which has a Chrome-like interface.</p>
+<p>I hadn&rsquo;t used Firefox in years before I switched, but it&rsquo;s gotten a lot better. In particular, I&rsquo;m using the <a href="https://people.mozilla.com/~jwein/ux-nightly/">UX build</a> (warning: <em>very</em> beta), which has a Chrome-like interface.</p>
 
 <h3>Firefox Settings</h3>
 
-<p>It&#8217;s easy to tune Firefox to maximize your privacy without diminishing your experience.</p>
+<p>It&rsquo;s easy to tune Firefox to maximize your privacy without diminishing your experience.</p>
 
 <h4>Privacy</h4>
 
-<p>Under the &#8220;Privacy&#8221; tab in the preferences page, select &#8220;Tell sites I do not want to be tracked.&#8221; Of course, sites are under no obligation to obey this flag, but it doesn&#8217;t hurt to make our preferences clear.</p>
+<p>Under the &ldquo;Privacy&rdquo; tab in the preferences page, select &ldquo;Tell sites I do not want to be tracked.&rdquo; Of course, sites are under no obligation to obey this flag, but it doesn&rsquo;t hurt to make our preferences clear.</p>
 
-<p>Set the history preference to &#8220;Use custom settings for history,&#8221; change &#8220;Accept third-party cookies&#8221; to &#8220;Never.&#8221; I&#8217;ll let CNET <a href="http://howto.cnet.com/8301-11310_39-20042703-285/disable-third-party-cookies-in-ie-firefox-and-google-chrome/">explain why</a>:</p>
+<p>Set the history preference to &ldquo;Use custom settings for history,&rdquo; change &ldquo;Accept third-party cookies&rdquo; to &ldquo;Never.&rdquo; I&rsquo;ll let CNET <a href="http://howto.cnet.com/8301-11310_39-20042703-285/disable-third-party-cookies-in-ie-firefox-and-google-chrome/">explain why</a>:</p>
 
 <blockquote><p> So if third-party cookies offer no direct benefit to users and can potentially be a threat, why do all the major browser makers default to allowing sites to leave all the cookies they want on your machine? Because the advertisers are their customers and are at least as important to them as users are.</p></blockquote>
 
-<p>Continue accepting cookies in general, though. We&#8217;ll get to why that&#8217;s OK later.</p>
+<p>Continue accepting cookies in general, though. We&rsquo;ll get to why that&rsquo;s OK later.</p>
 
 <h4>Security</h4>
 
-<p>Uncheck &#8220;Remember passwords for sites.&#8221; We have a better option.</p>
+<p>Uncheck &ldquo;Remember passwords for sites.&rdquo; We have a better option.</p>
 
 <h4>Search Engine</h4>
 
-<p>I tried switching to <a href="https://duckduckgo.com">DuckDuckGo</a> but found that after nearly 1.5 decades of using Google the search quality was much poorer. (For example, when searching for the UX build link above, I searched for &#8220;firefox UX&#8221;, &#8220;firefox UX build&#8221;, &#8220;firefox UX nightly&#8221; etc. on DuckDuckGo, none of which produced the result I wanted. One search on Google and the first result was correct.)</p>
+<p>I tried switching to <a href="https://duckduckgo.com">DuckDuckGo</a> but found that after nearly 1.5 decades of using Google the search quality was much poorer. (For example, when searching for the UX build link above, I searched for &ldquo;firefox UX&rdquo;, &ldquo;firefox UX build&rdquo;, &ldquo;firefox UX nightly&rdquo; etc. on DuckDuckGo, none of which produced the result I wanted. One search on Google and the first result was correct.)</p>
 
-<p>If you want a more privacy-respecting engine than Google but can&#8217;t give up (most of) Google&#8217;s search quality, use <a href="https://startpage.com">Startpage</a>. This site uses Google as a backend for search results.</p>
+<p>If you want a more privacy-respecting engine than Google but can&rsquo;t give up (most of) Google&rsquo;s search quality, use <a href="https://startpage.com">Startpage</a>. This site uses Google as a backend for search results.</p>
 
 <h4>Block Referer [sic] Header</h4>
 
-<p>Type &#8220;about:config&#8221; in the address bar, then type &#8220;referer&#8221; in the search bar. You want to set the <code>network.http.sendRefererHeader</code> value to 0, which will prevent the browser from sending <code>Referer:</code> headers. When clicking on a link from page A to B, this will prevent B from seeing the URL of A.</p>
+<p>Type &ldquo;about:config&rdquo; in the address bar, then type &ldquo;referer&rdquo; in the search bar. You want to set the <code>network.http.sendRefererHeader</code> value to 0, which will prevent the browser from sending <code>Referer:</code> headers. When clicking on a link from page A to B, this will prevent B from seeing the URL of A.</p>
 
 <h2>Firefox Addons</h2>
 
@@ -396,7 +396,7 @@ most valued by all civilized men&#8221;: to be left alone.</p>
 
 <h3><a href="https://lastpass.com">LastPass</a></h3>
 
-<p>Fun fact: I don&#8217;t actually know the vast majority of my passwords. LastPass is a cross-platform (Windows/Mac/Linux/Android/iOS) password manager that generates and securely stores passwords and form-fill info. It uses client-side encryption to protect your data and allows auto-login and auto-fill. Highly recommended.</p>
+<p>Fun fact: I don&rsquo;t actually know the vast majority of my passwords. LastPass is a cross-platform (Windows/Mac/Linux/Android/iOS) password manager that generates and securely stores passwords and form-fill info. It uses client-side encryption to protect your data and allows auto-login and auto-fill. Highly recommended.</p>
 
 <h3><a href="https://www.eff.org/https-everywhere">HTTPS Everywhere</a></h3>
 
@@ -404,7 +404,7 @@ most valued by all civilized men&#8221;: to be left alone.</p>
 
 <h3><a href="https://addons.mozilla.org/en-US/firefox/addon/self-destructing-cookies/">Self-Destructing Cookies</a></h3>
 
-<p>Deletes cookies for a site as soon as you close the tab. You&#8217;ll want to whitelist sites you want to stay logged into, but this is a one-time operation per site. This can go a long, long way towards preventing sites from building a profile of you. This gets you most of the benefit of disabling cookies while still allowing you to log in.</p>
+<p>Deletes cookies for a site as soon as you close the tab. You&rsquo;ll want to whitelist sites you want to stay logged into, but this is a one-time operation per site. This can go a long, long way towards preventing sites from building a profile of you. This gets you most of the benefit of disabling cookies while still allowing you to log in.</p>
 
 <h3><a href="https://adblockplus.org/en/firefox">Adblock Plus</a></h3>
 
@@ -412,21 +412,21 @@ most valued by all civilized men&#8221;: to be left alone.</p>
 
 <h3><a href="https://addons.mozilla.org/en-US/firefox/addon/betterprivacy/">BetterPrivacy</a></h3>
 
-<p>Has just one purpose: to disable LSOs (locally stored objects), a type of &#8220;super-cookie&#8221; used by Flash.</p>
+<p>Has just one purpose: to disable LSOs (locally stored objects), a type of &ldquo;super-cookie&rdquo; used by Flash.</p>
 
 <h3><a href="https://addons.mozilla.org/en-US/firefox/addon/ghostery/">Ghostery</a></h3>
 
-<p>Blocks a wide range of tracking methods 99% non-intrusively. The default configuration gives you a little popup at the upper right of your browser, which is occasionally interesting (&#8220;I had no idea this page felt the need to track me in 12 different ways&#8221;). Will occasionally break a page in a non-obvious way (&#8220;I feel like there should be comments here&#8230;&#8221;) but it&#8217;s easy to disable temporarily if reading internet comments is your thing. <em>cough</em></p>
+<p>Blocks a wide range of tracking methods 99% non-intrusively. The default configuration gives you a little popup at the upper right of your browser, which is occasionally interesting (&ldquo;I had no idea this page felt the need to track me in 12 different ways&rdquo;). Will occasionally break a page in a non-obvious way (&ldquo;I feel like there should be comments here&hellip;&rdquo;) but it&rsquo;s easy to disable temporarily if reading internet comments is your thing. <em>cough</em></p>
 
 <h3><a href="https://www.dephormation.org.uk/index.php?page=81">Secret Agent</a></h3>
 
-<p>Cookies aren&#8217;t the only way sites fingerprint your browser &#8211; one of the most common methods is the user-agent string. This extension randomizes the user-agent string sent along with your browser on every request, thus spreading your information among a number of different profiles and making you harder to track. It&#8217;ll also randomize the HTTP Accept headers.</p>
+<p>Cookies aren&rsquo;t the only way sites fingerprint your browser &mdash; one of the most common methods is the user-agent string. This extension randomizes the user-agent string sent along with your browser on every request, thus spreading your information among a number of different profiles and making you harder to track. It&rsquo;ll also randomize the HTTP Accept headers.</p>
 
-<p>Unfortunately, the default user-agent list Secret Agent ships with causes problems with sites as their capability-detection mechanisms go haywire (Lynx?!). I&#8217;ve created my own <a href="http://adversari.es/assets/useragentlist.txt">list of modern user agents</a> consisting of the most popular browser strings from Firefox, Chrome, and Safari.</p>
+<p>Unfortunately, the default user-agent list Secret Agent ships with causes problems with sites as their capability-detection mechanisms go haywire (Lynx?!). I&rsquo;ve created my own <a href="http://adversari.es/assets/useragentlist.txt">list of modern user agents</a> consisting of the most popular browser strings from Firefox, Chrome, and Safari.</p>
 
 <h3><a href="https://addons.mozilla.org/en-US/firefox/addon/flashblock/">Flashblock</a></h3>
 
-<p>Disallows Flash from running by default, replacing Flash applets with a placeholder that runs the applet when clicked. Not only does this protect against malicious (or annoying!) Flash apps, it&#8217;ll prevent browsers from using Flash-based fingerprinting methods (such as loading the list of installed fonts). I&#8217;ve used click-to-run on Google Chrome for ages and it&#8217;s been great.</p>
+<p>Disallows Flash from running by default, replacing Flash applets with a placeholder that runs the applet when clicked. Not only does this protect against malicious (or annoying!) Flash apps, it&rsquo;ll prevent browsers from using Flash-based fingerprinting methods (such as loading the list of installed fonts). I&rsquo;ve used click-to-run on Google Chrome for ages and it&rsquo;s been great.</p>
 
 <h1>Out of Scope</h1>
 
@@ -434,9 +434,9 @@ most valued by all civilized men&#8221;: to be left alone.</p>
 
 <h1>Conclusion</h1>
 
-<p>You can see the impact of some of these techniques using <a href="https://panopticlick.eff.org">Panopticlick</a>. If your browser is unique, don&#8217;t worry &#8211; just check how it changes on each reload, which Secret Agent should help with.</p>
+<p>You can see the impact of some of these techniques using <a href="https://panopticlick.eff.org">Panopticlick</a>. If your browser is unique, don&rsquo;t worry &mdash; just check how it changes on each reload, which Secret Agent should help with.</p>
 
-<p>These techniques should allow you to browse the web with greater confidence that companies aren&#8217;t tracking you everywhere you go.</p>
+<p>These techniques should allow you to browse the web with greater confidence that companies aren&rsquo;t tracking you everywhere you go.</p>
 
 <p><em>Got any other suggestions for low-impact privacy improvements? Tweet me at <a href="https://twitter.com/ternus">@ternus</a>.</em></p>
 ]]></content>
@@ -451,90 +451,90 @@ most valued by all civilized men&#8221;: to be left alone.</p>
     <updated>2013-06-19T14:59:00-04:00</updated>
     <id>http://adversari.es//blog/2013/06/19/cant-we-all-just-get-along</id>
     
-    <content type="html"><![CDATA[<p>Put bluntly: to others, we&#8217;re jerks.</p>
+    <content type="html"><![CDATA[<p>Put bluntly: to others, we&rsquo;re jerks.</p>
 
-<p>If you don&#8217;t think this is a problem, you can stop reading here.</p>
+<p>If you don&rsquo;t think this is a problem, you can stop reading here.</p>
 
 <h3>The dysfunctional tale of Bob and Alice</h3>
 
 <p>Imagine this. Developer Bob just received an email from your Infosec
 department, subject <em>Important Security Update.</em> He sighs, thinking of the
-possibilities: a request to rotate his password, or a new rule? Maybe it&#8217;s a
+possibilities: a request to rotate his password, or a new rule? Maybe it&rsquo;s a
 dressing-down for having violated some policy, a demand for extra work to
-patch a system, or yet another hair-on-fire security update he doesn&#8217;t
-really see the need for. His manager is on his case: he&#8217;s been
+patch a system, or yet another hair-on-fire security update he doesn&rsquo;t
+really see the need for. His manager is on his case: he&rsquo;s been
 putting in long hours on the next rev of the backend but library
-incompatibilities and inconsistent APIs have ruined his week, and he&#8217;s way
-behind schedule. He shelves the security update &#8211; he doesn&#8217;t have time to
+incompatibilities and inconsistent APIs have ruined his week, and he&rsquo;s way
+behind schedule. He shelves the security update &mdash; he doesn&rsquo;t have time to
 deal with it, and most things coming out of Infosec are just sound and fury
-anyway &#8211; and, thinking how nice it would be if his team actually got the
-resources it needed, continues to code. He&#8217;ll get to it later. Promise.</p>
+anyway &mdash; and, thinking how nice it would be if his team actually got the
+resources it needed, continues to code. He&rsquo;ll get to it later. Promise.</p>
 
-<p>Meanwhile, you, Security Researcher Alice, are trying not to panic. You&#8217;ve
-seen the latest Rails vulnerability disclosure, and you know it&#8217;s just a
+<p>Meanwhile, you, Security Researcher Alice, are trying not to panic. You&rsquo;ve
+seen the latest Rails vulnerability disclosure, and you know it&rsquo;s just a
 matter of hours before your exposed system gets hit. You remember
-what happened to <a href="http://www.h-online.com/open/news/item/GitHub-security-incident-highlights-Ruby-on-Rails-problem-1463207.html">Github</a> and <a href="https://blog.heroku.com/archives/2013/1/11/rails_security_vulnerability">Heroku</a>, and you&#8217;re not anxious to make the front
+what happened to <a href="http://www.h-online.com/open/news/item/GitHub-security-incident-highlights-Ruby-on-Rails-problem-1463207.html">Github</a> and <a href="https://blog.heroku.com/archives/2013/1/11/rails_security_vulnerability">Heroku</a>, and you&rsquo;re not anxious to make the front
 page of Hacker News (again?!). If only Bob would answer his email! You know
-he&#8217;s at work &#8211; what&#8217;s happening? The face of your boss the last time your
+he&rsquo;s at work &mdash; what&rsquo;s happening? The face of your boss the last time your
 software got exploited appears in your mind, and you cringe, dreading an
 unpleasant meeting ahead. You fume for several minutes, cursing all developers everywhere, but no response is forthcoming. Angrily, you stand up and march over to
 his cube, ready to give him a piece of your mind.</p>
 
-<p>Pause. What&#8217;s going on here, and what&#8217;s about to happen?</p>
+<p>Pause. What&rsquo;s going on here, and what&rsquo;s about to happen?</p>
 
 <h3>Interlude: we are the watchers on the walls</h3>
 
-<p>Many in the Infosec community are fond of casting the security world as &#8220;us
-versus them,&#8221; where &#8220;they&#8221; aren&#8217;t external, malicious actors but
+<p>Many in the Infosec community are fond of casting the security world as &ldquo;us
+versus them,&rdquo; where &ldquo;they&rdquo; aren&rsquo;t external, malicious actors but
 unaware users, clueless managers, and bumbling executives within our own
-organizations. <strong>We like to see ourselves as the <a href="http://awoiaf.westeros.org/index.php/Night's_Watch">Night&#8217;s
+organizations. <strong>We like to see ourselves as the <a href="http://awoiaf.westeros.org/index.php/Night's_Watch">Night&rsquo;s
 Watch</a> of the tech
 world</strong>: out in the cold with little love or support, putting in long nights
 protecting the realm against the real threats (which the pampered never take
 seriously) so everyone else can get on with their lives in comfort. We develop
 a jaundiced attitude: only we understand the real danger, we think, and while
-we&#8217;re doing our best to stave off outsider threats, when the long night comes
+we&rsquo;re doing our best to stave off outsider threats, when the long night comes
 we need fast and unquestioning cooperation from the rest of the organization
 lest (hopefully metaphorical) frozen undead kill us all.</p>
 
-<p>The rest of the organization doesn&#8217;t see it that way. <strong>To them,
-we&#8217;re Chicken Little crossed with the IRS crossed with their least favorite
+<p>The rest of the organization doesn&rsquo;t see it that way. <strong>To them,
+we&rsquo;re Chicken Little crossed with the IRS crossed with their least favorite
 elementary-school teacher</strong>: always yelling about the sky falling, demanding
 unquestioning obedience to a laundry list of arcane, seemingly arbitrary rules
 (<a href="http://www.csoandy.com/files/password_weakness.html">password complexity requirements</a>, anyone?) that seem of little consequence,
 and condescendingly remonstrating anyone who steps out of line. Once in a
 while a visionary (often an Infosec expat) who truly understands the threat
-tries to help others see the value, but most of &#8220;them&#8221; don&#8217;t get it. <em>Users are
+tries to help others see the value, but most of &ldquo;them&rdquo; don&rsquo;t get it. <em>Users are
 stupid. Managers are idiots. Executives are out of touch.</em> So it goes.</p>
 
 <h3>Back to the story</h3>
 
-<p>From Bob&#8217;s perspective, he&#8217;s making a reasonable risk/reward tradeoff: not
+<p>From Bob&rsquo;s perspective, he&rsquo;s making a reasonable risk/reward tradeoff: not
 dealing with the email right now might get him yelled at, but judging from
-history, probably not &#8211; he gets lots of &#8220;urgent&#8221; security emails that turn
+history, probably not &mdash; he gets lots of &ldquo;urgent&rdquo; security emails that turn
 out to be Windows patches, admonitions to change his password, policy
 reminders and so on. From your perspective, Bob is being completely
 irresponsible: you told him it was important; it was right there in the
 subject line!</p>
 
-<p>You storm into Bob&#8217;s cubicle. Images of mocking Hacker News articles dancing
+<p>You storm into Bob&rsquo;s cubicle. Images of mocking Hacker News articles dancing
 in your head, you accuse Bob of flagrant negligence (perhaps letting out some
-anger over the last security incident; Bob works on that team, doesn&#8217;t he?)
-and demand that he drop whatever he&#8217;s doing and fix this, <em>now</em>. This mood of
-righteous indignation doesn&#8217;t lend itself to patient explanations, and Bob&#8217;s
+anger over the last security incident; Bob works on that team, doesn&rsquo;t he?)
+and demand that he drop whatever he&rsquo;s doing and fix this, <em>now</em>. This mood of
+righteous indignation doesn&rsquo;t lend itself to patient explanations, and Bob&rsquo;s
 demand that you explain the vulnerability is met with your impatient demand to
-&#8220;just do it.&#8221; There isn&#8217;t time for that &#8211; someone could be dumping your
+&ldquo;just do it.&rdquo; There isn&rsquo;t time for that &mdash; someone could be dumping your
 database as you speak!</p>
 
 <p>Bob, already running out of patience due to his looming deadline, fires back
-that he <em>can&#8217;t</em> deal with this now, he&#8217;s too busy, it&#8217;s not his problem (there
+that he <em>can&rsquo;t</em> deal with this now, he&rsquo;s too busy, it&rsquo;s not his problem (there
 are other devs, right?) and you should take it up with his manager. Even if he
-could, he wouldn&#8217;t: didn&#8217;t the last few Infosec red alerts turn out to be
-nothing? Why are you trying to waste his time? Don&#8217;t you understand he has
-real work to do, work he&#8217;ll get fired for not doing?</p>
+could, he wouldn&rsquo;t: didn&rsquo;t the last few Infosec red alerts turn out to be
+nothing? Why are you trying to waste his time? Don&rsquo;t you understand he has
+real work to do, work he&rsquo;ll get fired for not doing?</p>
 
 <p>Bob considers this a horrendous distraction from his critical dev
-work, and you see Bob as dragging his feet while the building&#8217;s on fire. You
+work, and you see Bob as dragging his feet while the building&rsquo;s on fire. You
 both walk away angry. Regardless of whether the vulnerability eventually gets closed, serious harm has been done.</p>
 
 <p>A common, less overtly contentious version of this exchange involves <a href="https://en.wikipedia.org/wiki/Fear,_uncertainty_and_doubt">FUD</a> on both ends,
@@ -547,41 +547,41 @@ a lack of empathy.</p>
 
 <h3>Understanding is a three-edged sword: our side, their side, and the truth</h3>
 
-<p><a href="http://www.swlearning.com/economics/mankiw/principles2e/principles.html">Mankiw&#8217;s Principles of Economics</a>
-apply here, particularly the first and fourth: &#8220;People face
-tradeoffs&#8221; and &#8220;People respond to incentives.&#8221;
-Hanlon&#8217;s Razor says &#8220;Never attribute to malice that which can be adequately
-explained by incompetence,&#8221; but I would add, <strong>&#8220;Never attribute to incompetence
-that which can be explained by differing incentive structures.&#8221;</strong></p>
+<p><a href="http://www.swlearning.com/economics/mankiw/principles2e/principles.html">Mankiw&rsquo;s Principles of Economics</a>
+apply here, particularly the first and fourth: &ldquo;People face
+tradeoffs&rdquo; and &ldquo;People respond to incentives.&rdquo;
+Hanlon&rsquo;s Razor says &ldquo;Never attribute to malice that which can be adequately
+explained by incompetence,&rdquo; but I would add, <strong>&ldquo;Never attribute to incompetence
+that which can be explained by differing incentive structures.&rdquo;</strong></p>
 
 <p>For example:</p>
 
 <ul>
-<li>Tradeoffs: if you give someone two tasks, both of which could take up 75% of their time, then tell them they will be fired if they don&#8217;t do Task A, don&#8217;t be surprised when Task B doesn&#8217;t get done.</li>
-<li>Positive incentives: if you measure QA performance by number of bugs found, you&#8217;ll find dozens of spurious bugs in the system.</li>
-<li>Negative incentives: measure developer performance by number of bugs generated and watch as devs pressure QA to not consider problems &#8220;bugs.&#8221;</li>
-<li>&#8220;Never argue with a man whose job depends on not being convinced.&#8221; &#8211; H.L. Mencken</li>
+<li>Tradeoffs: if you give someone two tasks, both of which could take up 75% of their time, then tell them they will be fired if they don&rsquo;t do Task A, don&rsquo;t be surprised when Task B doesn&rsquo;t get done.</li>
+<li>Positive incentives: if you measure QA performance by number of bugs found, you&rsquo;ll find dozens of spurious bugs in the system.</li>
+<li>Negative incentives: measure developer performance by number of bugs generated and watch as devs pressure QA to not consider problems &ldquo;bugs.&rdquo;</li>
+<li>&ldquo;Never argue with a man whose job depends on not being convinced.&rdquo; &mdash; H.L. Mencken</li>
 </ul>
 
 
 <p>These problems are not amenable to the sort of frontal assault described
-above. That approach assumes the target doesn&#8217;t understand or isn&#8217;t aware of
+above. That approach assumes the target doesn&rsquo;t understand or isn&rsquo;t aware of
 the problem, while in many cases they fully are. While yelling at someone may
-occasionally achieve the result you want, it doesn&#8217;t come without collateral
+occasionally achieve the result you want, it doesn&rsquo;t come without collateral
 damage, including massive loss of goodwill. Sometimes hard authority
-(executive fiat) is the only way to get the job done, but usually there&#8217;s a
+(executive fiat) is the only way to get the job done, but usually there&rsquo;s a
 better way.</p>
 
 <p>Imagine a group of people invite you and your friends to a local football
 field to play a friendly game. You show up and are quickly bewildered: the
 others are mocking you, nothing seems to be going the way it should, and when
-one of them shouts &#8220;go!&#8221; some of your friends are injured in the ensuing
+one of them shouts &ldquo;go!&rdquo; some of your friends are injured in the ensuing
 confusion. You could shout at your newfound acquaintances for hurting your
 friends, complain privately about how stupid they are for not understanding
-the rules&#8230; or pause for a moment, collect the available facts, and realize
+the rules&hellip; or pause for a moment, collect the available facts, and realize
 that <em>they had actually invited you to play rugby</em>. Disregarding your goals
 and charging off in another direction is not necessarily an indicator of
-malice <em>or</em> stupidity.  <strong>People are always playing a different game &#8211; it just
+malice <em>or</em> stupidity.  <strong>People are always playing a different game &mdash; it just
 occasionally has similar rules to yours.</strong></p>
 
 <p>Developers are measured on their ability to get software out the door. QA
@@ -600,9 +600,9 @@ security goals that are in line with both their calculus and yours?</p>
 <p>The jaundiced attitude among Infosec mentioned above, coupled with differing
 incentive structures, has an unfortunate tendency to spill over into external
 interactions. If 90% of lunch conversations are complaints about how terrible
-users are, how management doesn&#8217;t get it, and how the dev team on Project Foo
-are a bunch of incompetent turd-burglars &#8212; the next time you have to meet
-with Project Foo&#8217;s team, you&#8217;ll be hard-pressed to give them a fair hearing as
+users are, how management doesn&rsquo;t get it, and how the dev team on Project Foo
+are a bunch of incompetent turd-burglars &mdash;&ndash; the next time you have to meet
+with Project Foo&rsquo;s team, you&rsquo;ll be hard-pressed to give them a fair hearing as
 they explain how their lack of proper resources and mountain of technical debt
 prevent them from addressing problems properly.</p>
 
@@ -611,58 +611,58 @@ prevent them from addressing problems properly.</p>
 <blockquote><p>This {<em>system, product, device, network</em>}
 is {<em>insecure, vulnerable, unsafe, slow, broken, unprofitable, incomplete, poorly designed, ugly</em>}
 because the {<em>designer, manager, dev team, executives, QA, sales</em>}
-{<em>is incompetent, is lazy, doesn&#8217;t care about security, is an asshat</em>}</p></blockquote>
+{<em>is incompetent, is lazy, doesn&rsquo;t care about security, is an asshat</em>}</p></blockquote>
 
 <p>we erode our ability to evaluate the true cause of a situation. (Social
-psychology refers to this as the <a href="https://en.wikipedia.org/wiki/Fundamental_attribution_error">Fundamental Attribution Error</a> &#8211; the
+psychology refers to this as the <a href="https://en.wikipedia.org/wiki/Fundamental_attribution_error">Fundamental Attribution Error</a> &mdash; the
 tendency to attribute others&#8217; mistakes to their inherent failings, while
 attributing our own mistakes to the situation at hand.) We damage our reputation (and that of Infosec as a field), make ourselves
 unpleasant to deal with, and generally make the world a worse place.</p>
 
 <p>We also get used to thinking of people and teams in that way. We genuinely become less kind people.</p>
 
-<h2>What&#8217;s the alternative?</h2>
+<h2>What&rsquo;s the alternative?</h2>
 
 <p><em>Practice active kindness.</em> Go out of your way to do kind things for people,
 <em>especially</em> people who may not deserve it. If you wait for them to make the
-first move, you&#8217;ll be waiting a while &#8211; but extend a hand to someone who
+first move, you&rsquo;ll be waiting a while &mdash; but extend a hand to someone who
 expects a kick in the teeth and watch as you gain a new friend. Smile.</p>
 
-<p><em>Don&#8217;t go for the easy, wrong answers.</em> That team isn&#8217;t incompetent, they just
+<p><em>Don&rsquo;t go for the easy, wrong answers.</em> That team isn&rsquo;t incompetent, they just
 have too much work to do; how can we work with them to get our thing done?
-That manager isn&#8217;t stonewalling, he just has a different incentive structure
-&#8211; how can we understand what it is?</p>
+That manager isn&rsquo;t stonewalling, he just has a different incentive structure
+&mdash; how can we understand what it is?</p>
 
 <p><em>Seek to understand and make this clear.</em> When asking someone to do
 something, try to understand their current situation first. Perhaps the
-request isn&#8217;t as urgent as all that &#8211; but say it is. &#8220;I know you have a lot
+request isn&rsquo;t as urgent as all that &mdash; but say it is. &ldquo;I know you have a lot
 on your plate, with the X deadline and the Y update, but public-facing system
-Z could be compromised.&#8221; Ask questions and listen to the answers.</p>
+Z could be compromised.&rdquo; Ask questions and listen to the answers.</p>
 
-<p><em>Be flexible. Recalibrate &#8220;urgent.&#8221;</em> Think of the worst possible thing that
-could happen to your organization. Now try to make it worse. I&#8217;ve worked in
-places where the worst-case scenario involves &#8220;loss of multiple human lives.&#8221;
-Will the world end if this minor security patch isn&#8217;t applied today? Think of
+<p><em>Be flexible. Recalibrate &ldquo;urgent.&rdquo;</em> Think of the worst possible thing that
+could happen to your organization. Now try to make it worse. I&rsquo;ve worked in
+places where the worst-case scenario involves &ldquo;loss of multiple human lives.&rdquo;
+Will the world end if this minor security patch isn&rsquo;t applied today? Think of
 the automated OS updates popping up in the corner of your screen: how often
-are those more important than what you&#8217;re doing? If you practice this and do
+are those more important than what you&rsquo;re doing? If you practice this and do
 it well, people will start to feel you understand their value calculus, and
 this makes them much more likely to take your advice.</p>
 
 <p><em>Create stakeholders and spread security knowledge.</em> One thing our Infosec
 team tries to do is have people create their own security goals. The answer to
-&#8220;what does it mean to be safe&#8221; ultimately is up to them; we just guide the
-process. This means <em>they&#8217;re invested in security</em> - the more they&#8217;ve thought
+&ldquo;what does it mean to be safe&rdquo; ultimately is up to them; we just guide the
+process. This means <em>they&rsquo;re invested in security</em> &ndash; the more they&rsquo;ve thought
 about the safety of their own product, the more likely they are to value it as
 a goal.</p>
 
 <h2>Conclusion</h2>
 
-<p>Fixing Infosec&#8217;s jerk problem benefits everyone: us, the people we deal with,
-and ultimately the security of the system &#8211; and since that&#8217;s our long-term
+<p>Fixing Infosec&rsquo;s jerk problem benefits everyone: us, the people we deal with,
+and ultimately the security of the system &mdash; and since that&rsquo;s our long-term
 goal, we should actively seek to fix the problem. <strong>Be kind, and the rest will
 follow.</strong></p>
 
-<p><em>What do you think? Let me know on Twitter; I&#8217;m <a href="https://twitter.com/ternus">@ternus</a>.</em></p>
+<p><em>What do you think? Let me know on Twitter; I&rsquo;m <a href="https://twitter.com/ternus">@ternus</a>.</em></p>
 ]]></content>
     
   </entry>
