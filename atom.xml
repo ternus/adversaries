@@ -4,7 +4,7 @@
   <title><![CDATA[Adversarial Thinking]]></title>
   <link href="http://adversari.es//atom.xml" rel="self"/>
   <link href="http://adversari.es//"/>
-  <updated>2013-09-12T11:24:37-04:00</updated>
+  <updated>2013-12-10T22:04:39-05:00</updated>
   <id>http://adversari.es//</id>
   <author>
     <name><![CDATA[Christian Ternus]]></name>
@@ -12,6 +12,39 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    
+    <title type="html"><![CDATA[The Power and Danger of Abstraction]]></title>
+    <link href="http://adversari.es//blog/2013/12/10/abstraction/"/>
+    
+    <updated>2013-12-10T20:51:00-05:00</updated>
+    <id>http://adversari.es//blog/2013/12/10/abstraction</id>
+    
+    <content type="html"><![CDATA[<p>I&rsquo;m at the supermarket for a quick grocery run. I can carry everything I need in my hands, but I almost always grab a basket: why? It doesn&rsquo;t increase my maximum carry weight &mdash; you might even argue that the basket decreases it by forcing everything to hang from a flimsy handle. No, a supermarket basket gives a different advantage: by allowing me to treat multiple separate items as a singular item, it makes it easier to carry several objects at once. The basket is like an <em>abstraction</em> for its contents: rather than worrying about how I&rsquo;ll juggle a dozen eggs, a bottle of corn syrup, and a gallon of milk, I only need to carry the one basket. This is the <strong>power of abstraction</strong>: in simplifying, it allows us to manipulate more complex items than we otherwise could.</p>
+
+<p>Imagine describing a supermarket basket to someone who&rsquo;d never seen one. You&rsquo;d probably say something like: &ldquo;An open-topped box, about seventy by thirty-five by thirty-five centimeters, with a carrying handle, capable of holding about ten kilograms.&rdquo; It&rsquo;s a serviceable description and certainly matches the baskets you find in your local market the world over, yet it crucially <em>underspecifies</em> the actual object. Sure, that spec works fine &mdash; right up until the point that the user tries to fill it with hydrochloric acid, lava, fine sand, or superheated steel ingots. This is the <strong>danger of abstraction</strong>: the map is not the territory. In simplifying, abstractions elide detail.</p>
+
+<p>This may seem like an odd example &mdash; who&rsquo;d possibly want to do that? Surely a glance could tell you that supermarket baskets are unsuitable for holding such dangerous materials. Yet across the field of engineering, one constantly finds situations where publicly-described abstractions hide potentially-dangerous limitations. To name a few examples, NoSQL stores that impose arbitrary limits on data (for example, advertising themselves as Big Data, <a href="http://jaxenter.com/mongodb-mocked-after-posting-100gb-scaling-checklist-48377.html">as long as your Data isn&rsquo;t Bigger than 100GB</a>), &ldquo;authentication&rdquo; that isn&rsquo;t (a simple URL parameter check, or <a href="http://gizmodo.com/for-20-years-the-nuclear-launch-code-at-us-minuteman-si-1473483587">worse</a>), APIs that break down on hitting unspecified limits, and so on. It&rsquo;s not that the designers are deliberately malicious; rather, they constructed their systems around what were at the time reasonable tradeoffs, then failed to communicate them as their systems scaled. An API that offers a 10,000 requests-per-second limit might seem enough for anyone, but if someone builds a bestselling iOS app on top of it, suddenly you <em>both</em> have problems on your hands. Building on such abstractions is constructing one&rsquo;s house, if not on sand, then on terrain with unstable geology and a propensity for developing sinkholes. It all works fine, right until your kitchen floor vanishes into a sucking Chthonian hellpit.</p>
+
+<p>Part of the job of security researchers is to discover situations like these: the marginal cases where designers&#8217; implicit trust in abstractions breaks down. It&rsquo;s truly shocking how many things are &ldquo;secured&rdquo; by nothing more than &ldquo;why would anyone want to do that?&rdquo; Any government process involving a fax machine, for example &mdash; I once watched a fascinating conference presentation describing how easy it is to &ldquo;steal&rdquo; a Florida LLC through nothing more than a faxed-in form. No authentication whatsoever, because hey, who&rsquo;d go to that trouble? Another great example is the implicit trust companies place in their domain name registrars. A company can dedicate as much attention as they please to their network security &mdash; and still be &ldquo;hacked&rdquo; through a registrar compromise. These problems are solveable, but they&rsquo;re only <em>visible</em> &mdash; never mind tractable &mdash; if designers and decision-makers view these processes as something other than pure black-box abstractions.</p>
+
+<p>How can we improve this situation? Here are some ideas:</p>
+
+<p><strong>Communicate the limitations of your systems clearly, even if you think no one will ever reach them</strong>. If your electronic part stops working at 300 degrees Fahrenheit, communicate that fact &mdash; or one day someone may build it into a supposedly-fireproof system.</p>
+
+<p><strong>When designing abstractions for others, fail visibly, quickly, and gracefully</strong>. This especially goes for people who might not read the whole documentation (think: public APIs). It&rsquo;s much better to display a clear, obvious error than it is to start dropping, say, one in a hundred requests.</p>
+
+<p><strong>Follow the <a href="http://en.wikipedia.org/wiki/Robustness_principle">Robustness Principle</a></strong>: &ldquo;Be conservative in what you do; be liberal in what you accept from others.&rdquo;</p>
+
+<p><strong>Follow the corollary as well</strong>: understand that those designing the abstractions you use may not have taken the same steps. This is more than just liberal acceptance of potentially-flawed communication. I&rsquo;d be very cautious about building a business totally dependent on someone else&rsquo;s API (Facebook or Twitter, for example) lest they do exactly what those companies have done: radically shift the underlying terrain and render my previously-thriving business unsustainable. Twitter is more than an abstraction: it&rsquo;s a company, run by real people, that will occasionally make business decisions you disagree with. The only question is: how much risk does this expose you to?</p>
+
+<p><strong>Once in a while, take the covers off the abstractions you rely on, especially those you implicitly trust</strong>: ask yourself what things would have to fail for an unacceptable loss event to take place. How do you know those things aren&rsquo;t going to fail? What can you do about that?</p>
+
+<p><em>Don&rsquo;t put lava in your supermarket basket</em>: it&rsquo;s just not a good idea.</p>
+]]></content>
+    
+  </entry>
   
   <entry>
     
