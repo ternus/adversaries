@@ -104,15 +104,15 @@
 
 <p><strong>Communicate the limitations of your systems clearly, even if you think no one will ever reach them</strong>. If your electronic part stops working at 300 degrees Fahrenheit, communicate that fact &mdash; or one day someone may build it into a supposedly-fireproof system.</p>
 
-<p><strong>When designing abstractions for others, fail visibly, quickly, and gracefully</strong>. This especially goes for people who might not read the whole documentation (think: public APIs). It&rsquo;s much better to display a clear, obvious error than it is to start dropping, say, one in a hundred requests.</p>
+<p><strong>Abstractions you design should fail visibly, quickly, and gracefully</strong>. This especially goes for people who might not read the whole documentation (think: public APIs). It&rsquo;s much better to display a clear, obvious error than it is to start dropping, say, one in a hundred requests.</p>
 
 <p><strong>Follow the <a href="http://en.wikipedia.org/wiki/Robustness_principle">Robustness Principle</a></strong>: &ldquo;Be conservative in what you do; be liberal in what you accept from others.&rdquo;</p>
 
-<p><strong>Follow the corollary as well</strong>: understand that those designing the abstractions you use may not have taken the same steps. This is more than just liberal acceptance of potentially-flawed communication. I&rsquo;d be very cautious about building a business totally dependent on someone else&rsquo;s API (Facebook or Twitter, for example) lest they do exactly what those companies have done: radically shift the underlying terrain and render my previously-thriving business unsustainable. Twitter is more than an abstraction: it&rsquo;s a company, run by real people, that will occasionally make business decisions you disagree with. The only question is: how much risk does this expose you to?</p>
+<p><strong>Follow the corollary as well</strong>. Understand that those designing the abstractions you use may not have taken the same steps. This is more than just liberal acceptance of potentially-flawed communication. I&rsquo;d be very cautious about building a business totally dependent on someone else&rsquo;s API (Facebook or Twitter, for example) lest they do exactly what those companies have done: radically shift the underlying terrain and render my previously-thriving business unsustainable. Twitter is more than an abstraction: it&rsquo;s a company, run by real people, that will occasionally make business decisions you disagree with. The only question is: how much risk does this expose you to?</p>
 
-<p><strong>Once in a while, take the covers off the abstractions you rely on, especially those you implicitly trust</strong>: ask yourself what things would have to fail for an unacceptable loss event to take place. How do you know those things aren&rsquo;t going to fail? What can you do about that?</p>
+<p><strong>Once in a while, take the covers off the abstractions you rely on, especially those you implicitly trust</strong>. Ask yourself what things would have to fail for an unacceptable loss event to take place. How do you know those things aren&rsquo;t going to fail? What can you do about that?</p>
 
-<p><em>Don&rsquo;t put lava in your supermarket basket</em>: it&rsquo;s just not a good idea.</p>
+<p><strong>Don&rsquo;t put lava in your supermarket basket</strong>. It&rsquo;s just not a good idea.</p>
 </div>
 
 
