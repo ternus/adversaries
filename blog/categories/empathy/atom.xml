@@ -4,7 +4,7 @@
   <title><![CDATA[Category: empathy | Adversarial Thinking]]></title>
   <link href="http://adversari.es//blog/categories/empathy/atom.xml" rel="self"/>
   <link href="http://adversari.es//"/>
-  <updated>2013-12-10T22:25:55-05:00</updated>
+  <updated>2014-01-17T10:37:46-05:00</updated>
   <id>http://adversari.es//</id>
   <author>
     <name><![CDATA[Christian Ternus]]></name>
@@ -12,6 +12,207 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Breaking Down Tech Privilege from the inside]]></title>
+    <link href="http://adversari.es//blog/2014/01/17/invisible-tech-privilege/"/>
+    <updated>2014-01-17T03:55:00-05:00</updated>
+    <id>http://adversari.es//blog/2014/01/17/invisible-tech-privilege</id>
+    <content type="html"><![CDATA[<p><img src="/images/adversaries/Vaultboywink.jpg"></p>
+
+<p><em>I&rsquo;ve kept this post as jargon-free as possible on purpose. If you know what &lsquo;intersectionality&rsquo; means, you probably don&rsquo;t need this post. Feel free to read anyway!</em></p>
+
+<p>I work in the tech industry. I&rsquo;m also a white guy, which makes many things silently, invisibly easier.</p>
+
+<p>It took me a while to truly internalize this. To the extent that I naturally notice disparate treatment at all, my instincts often tell me that this is the way things ought to be, and that any deviation from this &ldquo;default&rdquo; is noticeable, uncomfortable and frightening. For many years I&rsquo;ve struggled with this; for example,</p>
+
+<blockquote><p>&ldquo;Why is there a special conference/meetup/tutorial/panel/workshop/scholarship/internship just for women/people of color? Why single out a particular race/gender for special treatment? Shouldn&rsquo;t we admit just on merit? Isn&rsquo;t doing otherwise unfair?&rdquo;</p></blockquote>
+
+<p>Well, isn&rsquo;t it? Many people look at such programs mentioned above as violating the principle of equality: if the goal is equal treatment for everyone, don&rsquo;t such actions explicitly fly in the face of that? As a white guy, you might for example see a higher acceptance rate for women and minorities &mdash; whether in elite universities, prestigious conferences, or sought-after jobs &mdash; as evidence of a system biased against you. Such explicit discrimination feels unfair and makes it look like those proposing it are simply seeking advantage for themselves, not a more equal system for everyone.</p>
+
+<p>I recently came across <a href="http://eschergirls.tumblr.com/post/57020976159/tumblrs-social-justice-hypocrisy-sjw-media">a fantastic analogy</a> that puts such things in perspective:</p>
+
+<blockquote><p>If you have a basketball team that’s played most of the game with 5 players and another that’s played most of the game with 3 players, it’s not unfair to give the other team 1 more player, even if in a vacuum, getting extra players seems unfair.  Also, even with the extra player, they’re still down 1 player, and the score is still vastly unbalanced due to the game having been played 5 to 3 in the past.</p></blockquote>
+
+<p>If the system is <em>already</em> unfair in many little ways, many of which are effectively impossible to correct, the best we can do is attempt to balance the scales in other ways.</p>
+
+<h4>But my life is difficult too, and nobody&rsquo;s lining up to give me special benefits!</h4>
+
+<p>A few years back I read Peggy McIntosh&rsquo;s essay, &ldquo;<a href="http://www.amptoons.com/blog/files/mcintosh.html">Unpacking the Invisible Knapsack</a>&rdquo;. The essay argues, in short, that the individual merits &mdash; hard-earned as they may be &mdash; of specific white people have absolutely nothing to do with the barriers minorities face day-to-day. I can be a driven-to-succeed hardworking professional or a lazy good-for-nothing slob, but I&rsquo;m <em>still</em> less likely to be stopped-and-frisked than an otherwise-identical-looking black person. In my world, I can work my fingers to the bone learning deep secrets of the programming arts or I can fake it and coast, but I <em>still</em> don&rsquo;t have to deal with common, overt sexual harassment at hacker cons the way an otherwise-identical woman does. That&rsquo;s what people mean by &ldquo;privilege&rdquo;: lots of little, invisible ways in which your life is <em>easier</em> &mdash; not necessarily <em>easy.</em></p>
+
+<p>Only by acknowledging that it exists &mdash; and working to compensate for it &mdash; can those who benefit from it, like me, make it <em>possible</em> for even an approximately merit-based system to exist at all.</p>
+
+<p>I was deeply moved by the format of the Invisible Knapsack essay. By laying out clear and simple facts &mdash; facts that, in large part, are still applicable today, nearly a quarter-century after they were written &mdash; McIntosh made her point far more effectively than any number of impassioned rants.</p>
+
+<p>I recently compiled a list of my own, specifically dealing with the tech field. I asked several friends for their own perspectives, and the Etherpad I was using was quickly filled with a heartfelt outpouring of personal experience, much of which caused me to stop and stare. I edited it and let it percolate for a while, pondering the right way to post it. My friend Liz&rsquo;s recent essay, &ldquo;<a href="http://blog.lizdenys.com/2014/01/03/i-do-not-feel-like-a-hacker/">I&rsquo;ve been programming since I was 10, but I don&rsquo;t feel like a hacker</a>&rdquo; and Professor Philip Guo&rsquo;s essay, &ldquo;<a href="pgbovine.net/tech-privilege.htm">Silent Technical Privilege</a>&rdquo; motivated me to edit, rearrange, and post.</p>
+
+<p>I don&rsquo;t claim this is exhaustive, sensical, or even 100% right; there are blind spots, both in my own experience and in what I chose to post. In particular, this doesn&rsquo;t touch on many significant categories of privilege (LGBT-vs-not, able-vs-not, etc.) which may remain entirely invisible to me. My hope is that nonetheless it will prove as illuminating to some as similar writings have been for me.</p>
+
+<h2>White Guy Privilege in Tech</h2>
+
+<p><em>Being a white guy in the tech industry makes a lot of things silently, invisibly easier.</em></p>
+
+<h3>Looking for work or making a career move</h3>
+
+<p><img src="/images/adversaries/hiring.jpg"></p>
+
+<ul>
+<li>If I&rsquo;m turned down for a speaker slot or job, it&rsquo;s probably not because of my race or gender. If I&rsquo;m hired or accepted, no one will think it&rsquo;s tokenism or a &ldquo;diversity hire.&rdquo;</li>
+<li>If I see a job post for a &ldquo;Python guy&rdquo; or similar, I know that means me. (Related: <a href="http://jvns.ca/blog/2013/12/27/guys-guys-guys/">Is &ldquo;guys&rdquo; gender-neutral?</a> and <a href="http://techcompaniesthatonlyhiremen.tumblr.com/">Tech Companies That Only Hire Men</a>)</li>
+<li>If I&rsquo;m encouraged to go into management, I won&rsquo;t wonder whether people are stereotyping me, either presuming lack of technical competence or &ldquo;good people skills.&rdquo; Nor will I wonder if I&rsquo;m just being encouraged to fill someone&rsquo;s &ldquo;diversity in high-paid positions&rdquo; checklist.</li>
+<li>Being white, I don&rsquo;t worry about potential employers finding me suspicious and trying especially hard to find something in a criminal background check, or judging me harshly over something minor in my past. Indeed, a minor crime (though I&rsquo;ve never been arrested) might be looked on as a funny youthful misadventure instead of a disqualifier.</li>
+<li>I&rsquo;ll never look at career stats and see that people like me predominantly leave the field well before retirement, and wonder whether I ought to do the same even if I have no reason to change.</li>
+<li>I never wonder whether I&rsquo;m being underpaid because of my gender or race.</li>
+<li>I don&rsquo;t have to audit &lsquo;exciting career opportunities&rsquo; in small companies for possible harassment. If I do encounter harassment and leave, it will be (has been!) treated as a weird story, not evidence of my lack of humor.</li>
+<li>I&rsquo;m much more likely to see perks in job descriptions that are designed to appeal to me (beer! pong! beer pong!).</li>
+<li>If I choose to have a child, people won&rsquo;t assume I&rsquo;m taking a break from my career. If I take time off from a job to raise my child, be with my partner at the hospital to deliver the child, or such, I probably won&rsquo;t lose my job. In general, I can care about my family without people assuming that I don&rsquo;t care about my job and my career. (I may even be treated with additional respect for doing so, rather than having it seen as unprofessional.)</li>
+<li>I never hear that hiring more people like me necessarily means hiring less qualified people.</li>
+</ul>
+
+
+<h3>At work</h3>
+
+<p><img src="/images/adversaries/cmw_workstn.jpg"></p>
+
+<ul>
+<li>I&rsquo;ll never be assumed to be the non-technical person in the room.</li>
+<li>If I&rsquo;m a manager, my managerial style is unlikely to be attributed to my gender (&ldquo;maternal&rdquo; or &ldquo;bitchy,&rdquo; pick one, and isn&rsquo;t that a great choice?)</li>
+<li>My clothing is unlikely to be used to judge my character or abilities. My office dress choices will never be viewed as a sexual come-on or invitation<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>.</li>
+<li>If I don&rsquo;t do my part to promote a more equitable culture in my workplace, I&rsquo;m unlikely to be called out for failing to do so (or take my silence as an argument for the default &mdash; &ldquo;she&rsquo;s never said anything; she must be OK with it!&rdquo;).</li>
+<li>If I provide someone (a coworker or customer) a technical solution, the person I&rsquo;m helping won&rsquo;t look at my race or gender and ask me to find someone who really knows what they&rsquo;re doing.</li>
+<li>If I express concerns about racism or sexism in my company&rsquo;s public-facing image, people won&rsquo;t think I&rsquo;m seeking personal advantage.</li>
+<li>I&rsquo;m less likely to experience body-image problems at work or be judged by how my body looks. If I&rsquo;m good looking, people will not assume I&rsquo;m unintelligent or that I was hired for that reason.</li>
+<li>It&rsquo;s unlikely that I&rsquo;ll have to deal with a coworker&rsquo;s unsolicited, repeated sexual interest at work. If this happens, their behavior towards me will be judged more harshly than my decision to reject them, and doing so is unlikely to affect my prospects for promotion or my future career trajectory.</li>
+<li>I can, if I choose, push for subtly exclusionary policies and attitudes and have these accepted. I can ignore the perspectives of people unlike me and not have this significantly impact my or my company&rsquo;s bottom line.</li>
+</ul>
+
+
+<h3>At conferences or meetups</h3>
+
+<p><img src="/images/adversaries/conference.jpg"></p>
+
+<ul>
+<li>At hacker meetups, professional conference, or anything in between, I&rsquo;m confident of finding other white guys. As such, I don&rsquo;t automatically stand out just for showing up. I&rsquo;m extremely unlikely to be the only white guy in any gathering of tech people, even overseas.  No one will ever comment on my finding other white guys to hang out with at conferences.</li>
+<li>I don&rsquo;t worry about a conference being a safe space. I can go to a conference and head home late at night without worrying about my safety or about being creeped on. I don&rsquo;t need to rely on codes of conduct or harassment policies (if they exist at all) to ensure my safety.</li>
+<li>I can spend time in hackerspaces and other public tech contexts without encountering sexual or racist jokes about people like me.</li>
+</ul>
+
+
+<h3>After work/socially</h3>
+
+<p><img src="/images/adversaries/beer.jpg"></p>
+
+<ul>
+<li>I can be confident that a coworker inviting me to a social event (like after-work drinks) is not a sexual overture. I&rsquo;m far less likely to experience repeated harassment if I turn down said invitation (though it does happen, it happens a <em>lot</em> less).</li>
+<li>Other tech people naturally assume I share their technical or social background and not feel the need to explain the basics to me. (&ldquo;There&rsquo;s this thing called Python&hellip;&rdquo; &ldquo;There&rsquo;s this thing called <em>Star Trek</em>&hellip;&rdquo; Yes. <em>They know</em>.) I won&rsquo;t be assumed to need special help above and beyond the usual, because I <em>am</em> the usual.</li>
+<li>My coworkers do not automatically assume I&rsquo;m uninterested in downtime activities like beer, video games, or foosball.</li>
+<li>I can get excited about technology in a casual, non-work setting without worrying that my conversation partners will think that I&rsquo;m sexually interested in them (or doing so in order to seem attractive to them), or have them question my credentials or expertise without reason.</li>
+</ul>
+
+
+<h3>Online</h3>
+
+<p><img src="/images/adversaries/reddit.png"></p>
+
+<ul>
+<li>If I publish a photo of myself (on Twitter, for example) I&rsquo;ll almost certainly not receive uncomfortable and unwelcome sexual advances or threats.</li>
+<li>Similarly, if I express an unpopular opinion, I almost certainly won&rsquo;t receive rape threats.</li>
+<li>Articles and blog posts in and about my field are almost always written for people like me. I very rarely start reading an article only to realize halfway through that the mental picture the author had of their audience did not include someone like me.</li>
+<li>If I choose a gender-neutral pseudonym in an online tech forum (or even Twitter), others' default assumptions about my race and gender are likely to be correct.</li>
+<li>It&rsquo;s likely that tutorials, teaching methods, and practices are designed with someone of my race, gender, and cultural/social background in mind.</li>
+</ul>
+
+
+<h3>Everywhere</h3>
+
+<p><img src="/images/adversaries/bubbles.jpg"></p>
+
+<ul>
+<li>The accomplishments and history of technology have been told to me as primarily the accomplishments of people who look like me. I&rsquo;m not fighting the wind of history. (How many unsung Ada Lovelaces and Grace Hoppers had their stories lost to history because they didn&rsquo;t fit the prevalent narrative?)</li>
+<li>I&rsquo;ve never been, and will likely never be, expected to speak for all white men on something, like the &ldquo;[people like me] experience.&rdquo; (At this point you may be thinking, &ldquo;What a silly idea, to think that one white guy can speak for all white guys! Are the experiences of a pasty, besuited COBOL programmer from Illinois somehow representative of all white men in tech? That&rsquo;s crazy.&rdquo; And you&rsquo;d be right.) Those I interact with will not <a href="http://xkcd.com/385">judge</a> the whole of my gender or race based on my actions.</li>
+<li>It&rsquo;s much easier for me to find people with similar life trajectories and problems to look up to, or to find a mentor who resembles me.</li>
+<li>Similarly, I&rsquo;ll never have tech people question my right to be anywhere, at a meetup, conference or prestigious company, based solely on my race or gender.</li>
+<li>In a room full of people, I&rsquo;m a lot less likely to be referred to by some physical feature: &ldquo;the girl&rdquo; or &ldquo;the black guy&rdquo; or whatever.</li>
+<li>If I&rsquo;m having a bad day, it will never be attributed to hormones or &ldquo;that time of the month.&rdquo; If I&rsquo;m angry, people will not look at my skin color and wonder if I&rsquo;m violent.</li>
+<li>People will not look at my skin color and make assumptions about my traditions or religious beliefs. (&ldquo;You&rsquo;re Hispanic, so you must be Catholic&hellip;&rdquo;)</li>
+<li>When someone is trying to market products to tech companies or technical people, they tailor their marketing to people like me. I rarely encounter marketing that makes me uncomfortable because that underlying assumption is wrong. (As one webcomic put it, &ldquo;<a href="http://www.shortpacked.com/2011/comic/book-13/05-the-death-of-snkrs/falseequivalence/">Welcome to the background radiation of my life.</a>&rdquo;)</li>
+<li>When I talk about my job, people think of me as smart and career-oriented instead of an oddball or outcast. I can discuss my job online normally and never encounter disbelief (can you imagine hearing &ldquo;you can&rsquo;t be a programmer, you&rsquo;re a <em>guy</em>&rdquo;?).</li>
+<li>Fellow American programmers will never ask me where I learned to speak English, which country I&rsquo;m from, or tell me I&rsquo;m not a &lsquo;real&rsquo; American.</li>
+<li>I can make jokes that subtly put down other races and genders and be considered part of the crowd. If someone reacts negatively, their reaction will often be seen as worse than my joke.</li>
+<li>I can write a post like this, confident that it will not be dismissed as simply my race or gender&rsquo;s obvious, self-serving opinion.</li>
+</ul>
+
+
+<h2>Whoa</h2>
+
+<p>Acknowledging these points of privilege often makes me deeply uncomfortable. It feels as though I&rsquo;m somehow confessing a crime. I&rsquo;m often tempted towards emotional backlash &mdash; &ldquo;<em>what, are you expecting me to apologize for my skin color or the fact that I&rsquo;m male? What am I supposed to do? I didn&rsquo;t have a choice!</em>&rdquo;</p>
+
+<p>To be clear, nobody&rsquo;s asking you to apologize for the circumstances of your birth (and if they are, that&rsquo;s unfair and silly and you should disregard it), just that you acknowledge that you may be benefiting from it and  work &mdash; for the sake of a fairer and kinder world &mdash; towards making the privileges you enjoy available to everyone.</p>
+
+<p>It&rsquo;s hard. As McIntosh wrote,</p>
+
+<blockquote><p>The pressure to avoid it is great, for in facing it I must give up the myth of meritocracy. If these things are true, this is not such a free country; one&rsquo;s life is not what one makes it; many doors open for certain people through no virtues of their own.</p></blockquote>
+
+<h2>&ldquo;So what can I do about it?&rdquo;</h2>
+
+<p>See what changes <em>you</em> can make to level the playing field. None of these suggestions require you to give up your rights, just to extend them to others wherever possible.</p>
+
+<ul>
+<li>Your startup&rsquo;s hiring? <em>Give your qualified female/minority friends a call.</em></li>
+<li>Your company&rsquo;s reviewing their benefits policies? <em>Ask how they cover maternity leave.</em></li>
+<li>You&rsquo;re organizing a conference? <em>Aim for diversity in your lineup. Ask for help if you need it.</em></li>
+<li>Someone&rsquo;s making a sexist/racist joke? <em>Call them out on it.</em></li>
+<li><strong>Everyone&rsquo;s</strong> making sexist/racist jokes? <em>Think about leaving.</em></li>
+<li>Someone in your group being constantly overlooked for their technical accomplishments? <em>Make a special point of recognizing them, even if you&rsquo;re their peer or employee.</em></li>
+<li>Someone&rsquo;s organizing a meetup for women, girls, or minorities in tech? <em>See if you can help. Understand if you can&rsquo;t.</em></li>
+<li>Someone in your life complaining about being marginalized, stereotyped, or put down in any of the ways mentioned above? <em>Help correct the situation if you can and they want you to. Support them. In any case, don&rsquo;t be a dick about it.</em></li>
+</ul>
+
+
+<h4>Sidenote: How To Not Be a Dick About It</h4>
+
+<p>I often see discussions, <em>especially</em> among rationalist tech-types, that go something like this:</p>
+
+<p> Alice: &ldquo;Charlie did $FOO, and it made me upset.&rdquo;
+ Bob: &ldquo;It was probably unintentional, and besides, what about extenuating circumstances $BAR and $BAZ? I might even do $FOO completely by accident.&rdquo;</p>
+
+<p>Bob is genuinely trying to help &mdash; from Bob&rsquo;s perspective, he&rsquo;s pointing out facts that Alice might not have considered and attempting to make Alice&rsquo;s view of the world more complete. This is especially likely to happen if Alice is calling out what she might see to be sexist or racist behavior &mdash; Bob doesn&rsquo;t like to see people condemned unfairly. But if you&rsquo;ve ever been in Alice&rsquo;s shoes, you&rsquo;ll notice that (unsurprisingly, perhaps) this doesn&rsquo;t make you feel better. In fact, you might be seriously bothered that Bob is &ldquo;taking Charlie&rsquo;s side&rdquo; &mdash; what Bob&rsquo;s communicating is &ldquo;you&rsquo;re wrong to feel that way.&rdquo; And that sucks. That&rsquo;s Being A Dick About It<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup>.</p>
+
+<p>The fact that Alice is upset is a problem separate from the specific details of $FOO. It&rsquo;s <em>especially</em> a problem if $FOO has happened to Alice six times today, and every time it&rsquo;s happened people try to explain why Alice shouldn&rsquo;t be upset. Key point: <strong>It is entirely possible for Bob or Charlie to be completely well-intentioned and nonetheless harm Alice. Ignoring or attempting to marginalize that harm is Dickish.</strong></p>
+
+<p>Consider this situation: Bob trips over a sidewalk crack and, in his arm-flailing descent to the pavement, punches Charlie in the nose. Charlie gets angry. Bob hastily explains that he didn&rsquo;t intend violence, that it was completely an accident. Charlie&rsquo;s anger may thus be mollified&hellip; <em>but it doesn&rsquo;t make the pain in his nose go away.</em> What is Bob most likely to hear? &ldquo;<em>Hey, watch where you&rsquo;re walking!</em>&rdquo;</p>
+
+<p>I believe, as conscientious, self-aware people, we have an obligation to understand the effects of our speech on others and factor in others' feelings when choosing our words. I&rsquo;m not advocating for pernicious self-censorship or lying, nor am I attempting to silence anyone; I&rsquo;m simply pointing out that a little attention to choice of words &mdash; and choice of statements &mdash; combined with empathy and kindness is the path to Not Being A Dick.</p>
+
+<h4>But what about my feelings? What about this angry feminist rant I just read?</h4>
+
+<p>Your feelings <em>are</em> important. I&rsquo;ve certainly felt marginalized, even hated, before. It <em>will</em> happen; there are many books, essays, rants, and <em>cris de coeur</em> on the Internet from people who have been on the losing end of the aforementioned sociocultural garbage chute for their entire lives. Much of it is directed at white people and/or men, and much of it may come off as shocking, offensive, and/or insane. Separating the wrong from the merely painful-to-read can take great effort, and it is <em>very easy</em> to take the extreme examples of this genre as representative of the whole and thereby invalidate the lot.</p>
+
+<p>I urge you to empathize; understand that much of this writing is coming from a place of great pain, frustration, and sorrow and that it conveys the spirit of a real problem, one that needs everyone&rsquo;s help to solve. Don&rsquo;t write it off &mdash; look at it as a personal growth opportunity. Look for the truth under the anger and pain. Calm does not mean correct; angry does not mean wrong. If you can&rsquo;t do that, close the browser (or book) and walk away. Everyone will be better off.</p>
+
+<p>If a personal friend (someone you know in real life) hurt you through their rhetoric, here&rsquo;s the best thing to do, in my experience: mention it to them <strong>calmly</strong>, <strong>privately</strong>, and if at all possible <strong>in person</strong> and allow them to talk. From what I&rsquo;ve seen, if you respond in anger online, you will not get the response you want; people can easily misinterpret your tone (and, depending on the forum, you may become the target of white-hot focused rage). If you do so publicly, you &mdash; regardless of your intentions &mdash; become a representative of the privileged system I just described. If you talk to them personally, but you&rsquo;re huffy and indignant, you&rsquo;ll either hurt them or provoke their ire or both, and neither of you will learn from the experience. <strong>Please learn from my mistakes!</strong></p>
+
+<h2>Conclusion, and thanks</h2>
+
+<p>I don&rsquo;t have all the answers. I can and will get it wrong and have done so many times. But the state of the world &mdash; that giant list above? That sucks. We can make it better.</p>
+
+<p>Thanks for reading. I&rsquo;d love to hear your comments; I&rsquo;m <a href="http://twitter.com/ternus">@ternus</a> on Twitter.</p>
+
+<h3>Acknowledgements</h3>
+
+<p><em>My deepest gratitude goes to the friends who helped me compile this list, contributing their own experiences and frustrations: Stephanie Bachar, <a href="http://twitter.com/redroselet">Liz Denys</a>, <a href="http://twitter.com/kyoki">Jacky Chang</a>, <a href="http://twitter.com/calledtovienna">Ekate K</a>, <a href="http://twitter.com/a_hailes">Amy Hailes</a>, Ian Smith, Preeya Phadnis, Paul Baranay, J.C., M.E., and others who who wished to remain uncredited. This subject often leads me into unfamiliar waters; you are the stars by which I navigate. Thank you all.</em></p>
+<div class="footnotes">
+<hr/>
+<ol>
+<li id="fn:1">
+<p>My friend says: &ldquo;It goes beyond this; there really <em>is</em> no default female tech-industry professional clothing I&rsquo;ve found that will not send one of the following messages: &lsquo;Pretty&rsquo; (and therefore obsessed with fashion and/or a ditz); &lsquo;Dowdy&rsquo; (and therefore old/not taking care of herself/uninterested in promotion);  &lsquo;Tomboy&rsquo; (and therefore assumed to want to be just one of the guys and not caring about any of the issues listed here); &lsquo;Suit&rsquo; (and therefore management and not technical). Getting out of these boxes, in my experience, requires serious style sense to pull off &lsquo;stylish but not pretty but not so quirky as to be weird&rsquo;, especially if you don&rsquo;t want to drift into suit territory. I can&rsquo;t just go to the store and buy Work Tops and Work Pants the way guys can. And if I try, there&rsquo;s no guarantee they&rsquo;ll <em>fit</em>&hellip;&rdquo;<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
+<li id="fn:2">
+<p>The technical term here is <em>invalidation</em>.<a href="#fnref:2" rev="footnote">&#8617;</a></p></li>
+</ol>
+</div>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Infosec's Jerk Problem]]></title>
